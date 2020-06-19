@@ -167,11 +167,9 @@
                 } else if (wichtig2==0){
                     SPD+=5;
                     eig_Pkt+=pkt2;
-                    alert(eig_Pkt)
                 }
                 var Aussage = document.querySelector("div");
                 if (SPD>0){
-                    alert(eig_Pkt);
                     var Prz=(eig_Pkt/SPD)*100;
                     if (Prz==100){
                         Aussage.innerHTML="<h3> Wow. Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Posititionen entsprechen zu 100% denen der SPD in Herne. </h3>";
@@ -189,9 +187,6 @@
                     } else{
                     Aussage.innerHTML="<h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3>"
                 }
-                SPD=0;
-                eig_Pkt=0;
-                Prz=0;
             }
         </script>
     </head>
