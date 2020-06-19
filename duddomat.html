@@ -154,11 +154,11 @@
                 var wichtig1=document.querySelector("input[name=W1]:checked").value;
                 if(wichtig1==1){
                     SPD+=10;
-                    eig_Pkt+=2*pkt1;
+                    eig_Pkt=2*pkt1;
                     alert(eig_Pkt);
                 } else if (wichtig1==0){
                     SPD+=5;
-                    eig_Pkt=eig_Pkt+pkt1;
+                    eig_Pkt=pkt1;
                     alert(eig_Pkt);
                 }
                 var pkt2=document.querySelector('input[name=A2]:checked').value;
