@@ -88,9 +88,9 @@
                 background-color: white; 
                 color: #E3000F; 
                 border: 5px solid #E3000F;
-                margin-left: 300px;
-                margin-top: 100px;
-                border-radius: 15px;
+                margin-left: 25%;
+                margin-top: 10%;
+                border-radius: 20%;
             }
 
             button:hover {
@@ -102,8 +102,8 @@
                 position: relative;
                 cursor: pointer;
                 display: block;
-                margin-bottom: 12px;
-                padding-left: 75px;
+                margin-bottom: 2%;
+                padding-left: 7%;
                 color: #E3000F;
                 font-size: 20;
                 font-family: Calibri;
@@ -175,15 +175,15 @@
                 if (SPD>0){
                     var Prz=(eig_Pkt/SPD)*100;
                     if (Prz==100){
-                        Aussage.innerHTML="<h3> Wow. Sicher, dass du nicht mitgeschrieben hast am Wahlprogramm? Deine Posititionen entsprechen zu 100% denen der SPD in Herne. </h3>";
+                        Aussage.innerHTML="<h3> Wow. Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Posititionen entsprechen zu 100% denen der SPD in Herne. </h3>";
                     } else if (Prz>=80){
-                        Aussage.innerHTML=`<h3> Sehr schön, deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne.</h3>`;
+                        Aussage.innerHTML=`<h3> Sehr schön, Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne.</h3>`;
                     } else if (Prz>=60){
-                        Aussage.innerHTML=`<h3> Das sieht doch schon ganz passend aus. Deine Positionen enstprechen zu ${Prz}% denen der SPD in Herne. Schau dir doch mal unser Wahlprogramm an, vielleicht können wir dich ja noch mit einigen weiteren Punkten überzeugen. </h3>`;
+                        Aussage.innerHTML=`<h3> Das sieht doch schon ganz passend aus. Deine Positionen enstprechen zu ${Prz}% denen der SPD in Herne. Schau Dir doch mal unser Wahlprogramm an, vielleicht können wir Dich ja noch mit einigen weiteren Punkten überzeugen. </h3>`;
                     } else if(Prz>=40){
-                        Aussage.innerHTML=`<h3> Da müssen wir wohl noch einige Überzeugungsarbeit bei dir leisten. Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Schreib uns doch, was wir in deinen Augen besser machen könnten. </h3>`;
+                        Aussage.innerHTML=`<h3> Da müssen wir wohl noch einige Überzeugungsarbeit bei Dir leisten. Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Schreib uns doch, was wir in Deinen Augen besser machen könnten. </h3>`;
                     } else if  (Prz>0){
-                        Aussage.innerHTML=`<h3> Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in deinen Augen besser machen könnten. </h3>`;
+                        Aussage.innerHTML=`<h3> Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen könnten. </h3>`;
                     } else{
                         Aussage.innerHTML="<h3> Bist du dir sicher, dass du hier richtig bist? Deine Positionen entsprechen zu 0% denen der SPD in Herne.</h3>"
                     } 
