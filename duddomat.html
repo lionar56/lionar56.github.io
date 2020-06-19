@@ -150,23 +150,23 @@
             wahlomat=function() {
                 var eig_Pkt=0;
                 var SPD=0;
-                var pkt=document.querySelector('input[name=A1]:checked').value;
-                var wichtig=document.querySelector("input[name=W1]:checked").value;
-                if(wichtig==1){
+                var pkt1=document.querySelector('input[name=A1]:checked').value;
+                var wichtig1=document.querySelector("input[name=W1]:checked").value;
+                if(wichtig1==1){
                     SPD+=10;
-                    eig_Pkt+=2*pkt;
-                } else if (wichtig==0){
+                    eig_Pkt+=2*pkt1;
+                } else if (wichtig1==0){
                     SPD+=5;
-                    eig_Pkt+=pkt;
+                    eig_Pkt+=pkt1;
                 }
-                var pkt=document.querySelector('input[name=A2]:checked').value;
-                var wichtig=document.querySelector("input[name=W2]:checked").value;
-                if(wichtig==1){
+                var pkt2=document.querySelector('input[name=A2]:checked').value;
+                var wichtig2=document.querySelector("input[name=W2]:checked").value;
+                if(wichtig2==1){
                     SPD+=10;
-                    eig_Pkt+=2*pkt;
-                } else if (wichtig==0){
+                    eig_Pkt+=2*pkt2;
+                } else if (wichtig2==0){
                     SPD+=5;
-                    eig_Pkt+=pkt;
+                    eig_Pkt+=pkt2;
                 }
                 var Aussage = document.querySelector("div");
                 if (SPD>0){
