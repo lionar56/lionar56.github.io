@@ -42,8 +42,9 @@
                 padding-right: 2%;
                 width: 75%;
                 margin-bottom: 1%;
-                margin-top: 2%;
-                margin-left: 0%;
+                margin-top: 20%;
+                margin-left: 7%;
+                margin-right: 20%;
             } 
             .aussage{
                 color: #00B4CC;
@@ -79,7 +80,7 @@
             }
             .neu{
                 margin-top: 0%;
-                margin-left: 14%;
+                margin-left: 17%;
                 font-size: 20;
                 margin-bottom: 5%;
             }
@@ -145,7 +146,10 @@
                 var SPD=0;
                 var pkt1=parseInt(document.querySelector('input[name=A1]:checked').value);
                 var wichtig1=parseInt(document.querySelector("input[name=W1]:checked").value);
-                if(wichtig1==1){
+                if (pkt1==6){
+                    SPD+=0;
+                    eig_Pkt+=0;
+                }else if(wichtig1==1){
                     SPD+=10;
                     eig_Pkt=2*pkt1;
                 } else if (wichtig1==0){
@@ -154,7 +158,10 @@
                 }
                 var pkt2=parseInt(document.querySelector('input[name=A2]:checked').value);
                 var wichtig2=parseInt(document.querySelector("input[name=W2]:checked").value);
-                if(wichtig2==1){
+                if (pkt2==6){
+                    SPD+=0;
+                    eig_Pkt+=0;
+                } else if(wichtig2==1){
                     SPD+=10;
                     eig_Pkt+=2*pkt2;
                 } else if (wichtig2==0){
@@ -177,11 +184,15 @@
                     } else{
                         Aussage.innerHTML="<h3> Bist Du Dir sicher, dass Du hier richtig bist? Deine Positionen entsprechen zu 0% denen der SPD in Herne.</h3><a href=#target2><button class='neu' onclick='hide()'>Noch einmal.</button></a> <a href=mailto: amelie.menges@gmx.de> <button class='neu'> Kontaktiere uns. </button> <a>"
                     } 
-                    } else{
+                } else{
                     Aussage.innerHTML="<h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3><a href=#target2><button class='neu' onclick='hide()'>Noch einmal.</button></a> <a href=mailto: amelie.menges@gmx.de> <button class='neu'> Kontaktiere uns. </button> <a>"
                 }
                 var feld=document.querySelector("#Auswertung");
                 feld.style.display="block";
+                var feld=document.querySelector("#Fragen");
+                feld.style.display="none";
+                var feld=document.querySelector("#Start");
+                feld.style.display="none";
             }
             show=function() {
                 var feld=document.querySelector("#Fragen");
