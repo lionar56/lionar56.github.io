@@ -305,6 +305,8 @@
                 var Aussage = document.querySelector("#Auswertung");
                 if (SPD>0){
                     var Prz=(eig_Pkt/SPD)*100;
+                    Prz= Math.round(Prz*100)/100;
+
                     if (Prz==100){
                         Aussage.innerHTML="<h3> Wow. Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Posititionen entsprechen zu 100% denen der SPD in Herne. </h3><a href=#target2><button class='neu' onclick='hide()'>Noch einmal.</button></a><a href=mailto: amelie.menges@gmx.de> <button class='neu'> Kontaktiere uns. </button> <a>";
                     } else if (Prz>=80){
