@@ -1,142 +1,141 @@
 <html>
     <head>
         <style>
-            @media only screen and (max-width: 600px) {
-                body{
-                    background-image: url("https://indieneuezeit.spd.de/fileadmin/_processed_/c/a/csm_BPT19_Logo_1200x630_56e26730d3.png");
-                    background-repeat: no-repeat;
-                    background-color: white;
-                    background-position: center bottom;
-                    background-size: 100%;
-                }
-                h1{
-                    color: #E3000F;
-                    font-size: 40;
-                    font-family: Calibri;
-                    font-weight: bold;
-                    padding-top: 5%;
-                    padding-left: 5%;
-                    padding-right: 20%;
-                }
-                h2{
-                    color: #E3000F;
-                    font-size: 30;
-                    font-family: Calibri;
-                    font-weight: bold;
-                    padding-top: 2%;
-                    padding-left: 7%;
-                    padding-right: 20%;
-                }
-                h3{
-                    color: #E3000F;
-                    font-size: 25;
-                    font-family: Calibri;
-                    font-weight: bold;
-                    padding-left: 2%;
-                    padding-bottom: 2%;
-                    padding-top: 2%;
-                    padding-right: 2%;
-                    width: 75%;
-                    margin-bottom: 1%;
-                    margin-top: 20%;
-                    margin-left: 7%;
-                    margin-right: 20%;
-                } 
-                .aussage{
-                    color: #00B4CC;
-                    padding-top: 2%;
-                    font-size: 30;
-                    margin-right: 15%;
-                }
-                div#Auswertung{
-                    color: #E3000F;
-                    font-size: 20;
-                    font-family: Calibri;
-                    font-weight: bold;
-                    padding-top: 0%;
-                    padding-left: 7%;
-                    padding-right: 15%;
-                }
-                button {
-                    padding: 16px 32px;
-                    text-align: center;
-                    text-decoration: none;
-                    display: inline-block;
-                    font-size: 40;
-                    font-family: Calibri;
-                    font-weight: bold;
-                    transition-duration: 0.4s;
-                    cursor: pointer;
-                    background-color: white; 
-                    color: #E3000F; 
-                    border: 5px solid #E3000F;
-                    margin-left: 25%;
-                    margin-top: 7%;
-                    border-radius: 20%;
-                    margin-bottom: 10%;
-                }
-                .neu{
-                    margin-top: 0%;
-                    margin-left: 17%;
-                    font-size: 20;
-                    margin-bottom: 5%;
-                }
-                button:hover {
-                    background-color: #00B4CC;
-                    color: #E3000F;
-                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-                }   
-                .antworten{
-                    position: relative;
-                    cursor: pointer;
-                    display: block;
-                    margin-bottom: 2%;
-                    padding-left: 7%;
-                    color: #E3000F;
-                    font-size: 20;
-                    font-family: Calibri;
-                    font-weight: bold;
-                }
-                .antworten input {
-                    position: absolute;
-                    opacity: 0;
-                    cursor: pointer;
-                }       
-                .checkmark {
-                    position: absolute;
-                    top: 0;
-                    left: 4%;
-                    height: 100%;
-                    width: 2%;
-                    background-color: #eee;
-                    border-radius: 50%;
-                }
-                .antworten:hover input ~ .checkmark {
-                    background-color: #ccc;
-                }
-                .antworten input:checked ~ .checkmark {
-                    background-color: #00b4cc;
-                }
-                .checkmark:after {
-                    content: "";
-                    position: absolute;
-                    display: none;
-                }
-                .antworten input:checked ~ .checkmark:after {
-                    display: block;
-                }
-                .antworten .checkmark:after {
-                    top: 32%;
-                    left: 32%;
-                    width: 32%;
-                    height: 32%;
-                    border-radius: 50%;
-                    background: white;
-                }
-                a{
-                    text-decoration: none;
-                }
-            }    
+            body{
+                background-image: url("https://indieneuezeit.spd.de/fileadmin/_processed_/c/a/csm_BPT19_Logo_1200x630_56e26730d3.png");
+                background-repeat: no-repeat;
+                background-color: white;
+                background-position: center bottom;
+                background-size: 100%;
+            }
+            h1{
+                color: #E3000F;
+                font-size: 40;
+                font-family: Calibri;
+                font-weight: bold;
+                padding-top: 5%;
+                padding-left: 5%;
+                padding-right: 20%;
+            }
+            h2{
+                color: #E3000F;
+                font-size: 30;
+                font-family: Calibri;
+                font-weight: bold;
+                padding-top: 2%;
+                padding-left: 7%;
+                padding-right: 20%;
+            }
+            h3{
+                color: #E3000F;
+                font-size: 25;
+                font-family: Calibri;
+                font-weight: bold;
+                padding-left: 2%;
+                padding-bottom: 2%;
+                padding-top: 2%;
+                padding-right: 2%;
+                width: 75%;
+                margin-bottom: 1%;
+                margin-top: 20%;
+                margin-left: 7%;
+                margin-right: 20%;
+            } 
+            .aussage{
+                color: #00B4CC;
+                padding-top: 2%;
+                font-size: 30;
+                margin-right: 15%;
+            }
+            div#Auswertung{
+                color: #E3000F;
+                font-size: 20;
+                font-family: Calibri;
+                font-weight: bold;
+                padding-top: 0%;
+                padding-left: 7%;
+                padding-right: 15%;
+            }
+            button {
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 40;
+                font-family: Calibri;
+                font-weight: bold;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                background-color: white; 
+                color: #E3000F; 
+                border: 5px solid #E3000F;
+                margin-left: 25%;
+                margin-top: 7%;
+                border-radius: 20%;
+                margin-bottom: 10%;
+            }
+            .neu{
+                margin-top: 0%;
+                margin-left: 17%;
+                font-size: 20;
+                margin-bottom: 5%;
+            }
+            button:hover {
+                background-color: #00B4CC;
+                color: #E3000F;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            }   
+            .antworten{
+                position: relative;
+                cursor: pointer;
+                display: block;
+                margin-bottom: 2%;
+                padding-left: 7%;
+                color: #E3000F;
+                font-size: 20;
+                font-family: Calibri;
+                font-weight: bold;
+            }
+            .antworten input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }       
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 4%;
+                height: 100%;
+                width: 2%;
+                background-color: #eee;
+                border-radius: 50%;
+            }
+            .antworten:hover input ~ .checkmark {
+                background-color: #ccc;
+            }
+            .antworten input:checked ~ .checkmark {
+                background-color: #00b4cc;
+            }
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+            .antworten input:checked ~ .checkmark:after {
+                display: block;
+            }
+            .antworten .checkmark:after {
+                top: 32%;
+                left: 32%;
+                width: 32%;
+                height: 32%;
+                border-radius: 50%;
+                background: white;
+            }
+            a{
+                text-decoration: none;
+            }
+            
             @media only screen and (min-width: 600px) {
                 body{
                     background-image: url("https://indieneuezeit.spd.de/fileadmin/_processed_/c/a/csm_BPT19_Logo_1200x630_56e26730d3.png");
