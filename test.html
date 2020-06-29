@@ -11,16 +11,13 @@
                 background-color: white;
             }
             img{
-                width: 150%;
+                width: 120%;
             }
             h1{
                 color: #E3000F;
                 font-size: 40;
                 font-family: Calibri;
                 font-weight: bold;
-                padding-top: 5%;
-                padding-left: 5%;
-                padding-right: 20%;
             }
             h2{
                 color: #E3000F;
@@ -64,6 +61,13 @@
             div#d1{
                 grid-column-start: 1;
                 grid-column-end: 3;
+                align-items: center;
+            }
+            div#d2{
+                align-items: center;
+            }
+            div#d3{
+                float: left;
             }
             button {
                 padding: 16px 32px;
@@ -370,14 +374,14 @@
                     Wenn Du bereit bist, klicke auf Start.
                 </h2>
             </div>
-            <div>
+            <div id="d2">
                 <a href="#target">
                     <button onclick="show()">
                         Start.
                     </button>
                 </a>
             </div>
-            <div>
+            <div id="d3">
                 <img src="https://indieneuezeit.spd.de/fileadmin/_processed_/c/a/csm_BPT19_Logo_1200x630_56e26730d3.png"/>
             </div>    
         </div>
