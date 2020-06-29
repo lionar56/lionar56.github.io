@@ -37,9 +37,7 @@
             } 
             .aussage{
                 color: #00B4CC;
-                padding-top: 2%;
                 font-size: 30;
-                margin-right: 15%;
             }
             div#Auswertung{
                 color: #E3000F;
@@ -66,7 +64,14 @@
             div#d3{
                 display: flex;
                 align-items: baseline;
-
+            }
+            div#d4{
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            div#d5{
+                grid-column-start: 1;
+                grid-column-end: 3;
             }
             button {
                 padding: 16px 32px;
@@ -385,47 +390,65 @@
         
         <div id="Fragen" style='display: none;'> 
             <a name="target">
-                <h2>
-                    Wie stehst Du zu den folgenden Aussagen?
-                </h2>
-                <h1 class="aussage">
-                    Bei der Entwicklung neuer Gewerbeflächen, z.B. General Blumenthal, sollen ökologische wie auch ökonomische Gesichtspunkte gleichermaßen beachtet werden.
-                </h1>
-                <label class="antworten"><input type='radio' name='A1' value=5 checked> 5 - Ich stimme voll zu.<span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A1' value=4> 4 <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A1' value=3> 3 <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A1' value=2> 2 <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A1' value=1> 1 <span class="checkmark"></span></label> 
-                <label class="antworten"><input type='radio' name='A1' value=0> 0 - Ich stimme gar nicht zu. <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A1' value=6> Überspringen. <span class="checkmark"></span></label>
-                <h2>
-                    Ist Dir die Aussage besonders wichtig?
-                </h2>
-                <label class="antworten"> <input type="radio" name="W1" value=1 checked> Ja. <span class="checkmark"></span></label>
-                <label class="antworten"> <input type="radio" name="W1" value=0> Nein. <span class="checkmark"></span></label>
+                <div id="d1">
+                    <h2>
+                        Wie stehst Du zu den folgenden Aussagen?
+                    </h2>
+                    <h1 class="aussage">
+                        Bei der Entwicklung neuer Gewerbeflächen, z.B. General Blumenthal, sollen ökologische wie auch ökonomische Gesichtspunkte gleichermaßen beachtet werden.
+                    </h1>
+                </div>
+                <div id="d4">    
+                    <label class="antworten"><input type='radio' name='A1' value=5 checked> 5 - Ich stimme voll zu.<span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A1' value=4> 4 <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A1' value=3> 3 <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A1' value=2> 2 <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A1' value=1> 1 <span class="checkmark"></span></label> 
+                    <label class="antworten"><input type='radio' name='A1' value=0> 0 - Ich stimme gar nicht zu. <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A1' value=6> Überspringen. <span class="checkmark"></span></label>
+                </div>
+                <div id="d1">
+                    <h2>
+                        Ist Dir die Aussage besonders wichtig?
+                    </h2>
+                </div>    
+                <div id="d4"> 
+                    <label class="antworten"> <input type="radio" name="W1" value=1 checked> Ja. <span class="checkmark"></span></label>
+                    <label class="antworten"> <input type="radio" name="W1" value=0> Nein. <span class="checkmark"></span></label>
+                </div>
             </a>
-            <a>
-                <h1 class="aussage">
-                    Das Einschulungsalter sollte flexibler geregelt werden können.
-                </h1>
-                <label class="antworten"><input type='radio' name='A2' value=5 checked> 5 - Ich stimme voll zu.<span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A2' value=4> 4 <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A2' value=3> 3 <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A2' value=2> 2 <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A2' value=1> 1 <span class="checkmark"></span></label> 
-                <label class="antworten"><input type='radio' name='A2' value=0> 0 - Ich stimme gar nicht zu. <span class="checkmark"></span></label>
-                <label class="antworten"><input type='radio' name='A2' value=6> Überspringen. <span class="checkmark"></span></label>
-                <h2>
-                    Ist Dir die Aussage besonders wichtig?
-                </h2>
-                <label class="antworten"> <input type="radio" name="W2" value=1 checked> Ja. <span class="checkmark"></span></label>
-                <label class="antworten"> <input type="radio" name="W2" value=0 > Nein. <span class="checkmark"></span></label>
+            <a> 
+                <div id="d1">
+                    <h1 class="aussage">
+                        Das Einschulungsalter sollte flexibler geregelt werden können.
+                    </h1>
+                </div>
+                <div id="d4">
+                    <label class="antworten"><input type='radio' name='A2' value=5 checked> 5 - Ich stimme voll zu.<span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A2' value=4> 4 <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A2' value=3> 3 <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A2' value=2> 2 <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A2' value=1> 1 <span class="checkmark"></span></label> 
+                    <label class="antworten"><input type='radio' name='A2' value=0> 0 - Ich stimme gar nicht zu. <span class="checkmark"></span></label>
+                    <label class="antworten"><input type='radio' name='A2' value=6> Überspringen. <span class="checkmark"></span></label>
+                </div>
+                <div id="d1">
+                    <h2>
+                        Ist Dir die Aussage besonders wichtig?
+                    </h2>
+                </div>
+                <div id="d4">   
+                    <label class="antworten"> <input type="radio" name="W2" value=1 checked> Ja. <span class="checkmark"></span></label>
+                    <label class="antworten"> <input type="radio" name="W2" value=0 > Nein. <span class="checkmark"></span></label>
+                </div>
             </a>
-            <a href="#target1">
-                <button onclick="wahlomat()">
+            <div id="d5">
+                <a href="#target1">
+                    <button onclick="wahlomat()">
                     Zur Auswertung.
-                </button>
-            </a>
+                    </button>
+                </a>    
+            </div>
         </div>    
         <a name="target1" href="#target2">            
             <div id="Auswertung">
