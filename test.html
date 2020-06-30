@@ -162,71 +162,86 @@
             }
             
             @media (max-width: 600px) {
+                html{
+                    margin: 0;
+                }
                 .wrapper {
-                display: grid;
-                grid-template-columns: 100vw;
-                grid-template-rows: 50vh 50vh;
-            }
+                    display: grid;
+                    grid-template-columns: 100%;
+                    grid-template-rows: 50vh 50vh;
+                }
                 body{
                     background-color: white;
                     margin: 0;
                 }
+                img{
+                    width: 100%;
+                }
                 h1{
                     color: #E3000F;
-                    font-size: 35;
+                    font-size: 40;
                     font-family: Calibri;
                     font-weight: bold;
-                    padding-top: 5%;
-                    padding-left: 5%;
-                    padding-right: 5%;
-                    text-align: center;
                 }
                 h2{
                     color: #E3000F;
                     font-size: 30;
                     font-family: Calibri;
                     font-weight: bold;
-                    padding-top: 2%;
-                    padding-left: 7%;
-                    padding-right: 7%;
-                    text-align: center;
                 }
                 h3{
                     color: #E3000F;
                     font-size: 25;
                     font-family: Calibri;
                     font-weight: bold;
-                    margin-left: 7%;
-                    padding-bottom: 2%;
-                    padding-top: 2%;
-                    margin-right: 7%;
-                    margin-bottom: 1%;
-                    margin-top: 10%;
-                    text-align: center;
                 } 
                 .aussage{
                     color: #00B4CC;
-                    padding-top: 2%;
                     font-size: 30;
-                    text-align: center;
-                    margin-right: 7%;
-                    margin-left: 7%;
+                    padding-left: 10%;
+                    padding-right: 10%;
                 }
                 div#Auswertung{
                     color: #E3000F;
-                    font-size: 20;
+                    font-size: 30;
                     font-family: Calibri;
                     font-weight: bold;
-                    padding-top: 0%;
-                    padding-left: 7%;
-                    padding-right: 15%;
+                    padding-left: 15vw;
+                    padding-right: 15vw;
+                    padding-top: 20vh;
+                }
+                div#d1{
+                    text-align: center;
+                    padding-top: 4vh;
+                    padding-bottom: 2vh;
+                }
+                div#d1a{
+                    text-align: center;
+                }
+                div#d2{
+                    align-content: center;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 30%;
+                }
+                div#d3{
+                    display: flex;
+                    align-items: baseline;
+                }
+                div#d4{
+                    padding-left: 40%;
+                    
+                }
+                div#d5{
+                    padding-left: 37%;
+                    padding-bottom: 5vh;
                 }
                 button {
-                    padding: 5% 7% ;
+                    padding: 16px 32px;
                     text-align: center;
                     text-decoration: none;
                     display: inline-block;
-                    font-size: 35;
+                    font-size: 40;
                     font-family: Calibri;
                     font-weight: bold;
                     transition-duration: 0.4s;
@@ -236,15 +251,11 @@
                     border: 5px solid #E3000F;
                     margin-top: 7%;
                     border-radius: 20%;
-                    margin-bottom: 10%;
-                    margin-left: 30%;
-                    margin-right: 30%;
                 }
                 .neu{
-                    margin-top: 0%;
-                    margin-left: 17%;
+                    margin-top: 10vh;
+                    margin-left: 14vw;
                     font-size: 20;
-                    margin-bottom: 5%;
                 }
                 button:hover {
                     background-color: #00B4CC;
@@ -255,8 +266,8 @@
                     position: relative;
                     cursor: pointer;
                     display: block;
-                    margin-bottom: 2%;
-                    padding-left: 7%;
+                    margin-bottom: 1vh;
+                    padding-left: 4vw;
                     color: #E3000F;
                     font-size: 20;
                     font-family: Calibri;
@@ -270,9 +281,9 @@
                 .checkmark {
                     position: absolute;
                     top: 0;
-                    left: 4%;
+                    left: 1vw;
                     height: 100%;
-                    width: 2%;
+                    width: 2vw;
                     background-color: #eee;
                     border-radius: 50%;
                 }
