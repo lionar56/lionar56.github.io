@@ -369,6 +369,58 @@
                 a{
                     text-decoration: none;
                 }
+                details{
+                    margin-bottom: 3vh;
+                }
+                details>summary{
+                    color: #E3000F;
+                    font-size: 20;
+                    font-family: Calibri;
+                    cursor: pointer;
+                    margin-bottom: 1vh;
+                }
+                .container {
+                    position: relative;
+                    width: 100%;
+                    margin-bottom: 2vh;
+                    margin-top: 1vh;
+                }
+
+                .image {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    border-radius: 20%;
+                }
+
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-color: #00b4cc;
+                    border-radius: 20%;
+                }
+
+                .container:hover .overlay {
+                    opacity: 1;
+                }
+
+                .text {
+                    color: white;
+                    font-size: 15;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    font-family: Calibri;
+                }
             }    
         </style>    
         <script style="text/javascript">
