@@ -166,19 +166,45 @@
                 font-family: Calibri;
                 cursor: pointer;
             }
-            details>p{
-                color: #00B4CC;
-                margin-left: 20vw;
-                margin-right: 20vw;
-                align-items: center;
+            .container {
+                position: relative;
+                width: 75%;
+            }
 
+            .image {
+                display: block;
+                width: 100%;
+                height: auto;
             }
-            p>img{
-                width: 5vw;
-                float: left;
-                border: 5px dotted #E3000F;
-                border-radius: 20%;
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #00b4cc;
             }
+
+            .container:hover .overlay {
+                opacity: 1;
+            }
+
+            .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                font-family: Calibri;
+            }
+
             
             @media (max-width: 600px) {
                 html{
@@ -441,7 +467,12 @@
                     </h1>
                     <details>
                         <summary> Das sagt die SPD Herne dazu: </summary>
-                        <p> <img src="hans.jpg"/> Peter [Position]: "Hier kommt ein Zitat hin." </p>
+                        <div class="container">
+                            <img src="hans.JPG" alt="Hans" class="image">
+                            <div class="overlay">
+                              <div class="text">"Hier kommt ein Zitat hin."</div>
+                            </div>
+                          </div>
                     </details>
                 </div>
                 <div id="d4">    
