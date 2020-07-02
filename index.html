@@ -1,0 +1,173 @@
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="Start" class="wrapper">
+      <div id="d1">
+        <a name="target2">
+          <h1>
+            Willkommen zu unserem Herner SPD Wahl-O-Mat!
+          </h1>
+        </a>
+        <h2>
+          Wenn Du bereit bist, klicke auf Start.
+        </h2>
+      </div>
+      <div id="d3">
+        <img
+          src="https://indieneuezeit.spd.de/fileadmin/_processed_/c/a/csm_BPT19_Logo_1200x630_56e26730d3.png"
+        />
+      </div>
+      <div id="d2">
+        <a href="#target">
+          <button onclick="show()">
+            Start.
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div id="Fragen" style="display: none;" class="wrapper">
+      <a name="target">
+        <div id="d1a" style="padding-top: 5vh;">
+          <h2>
+            Wie stehst Du zu den folgenden Aussagen?
+          </h2>
+          <h1 class="aussage">
+            Lokale erinnerungspolitische Initiativen, die politisch-historische
+            Bildungsarbeit zum Nationalsozialismus leisten, sollen unterstützt
+            werden.
+          </h1>
+          <details>
+            <summary> Das sagt die SPD Herne dazu: </summary>
+            <div class="container">
+              <img src="hans.jpg" alt="Hans" class="image" />
+              <div class="bottom">
+                Klick hier.
+              </div>
+              <div class="overlay">
+                <div class="text">
+                  "Hier kommt ein Zitat hin." - Hans Peter
+                  Blablablalblblasdldsfndskfdsnfdsfdsgdsgsdgsdgdhsg
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+        <div id="d4">
+          <label class="antworten"
+            ><input type="radio" name="A1" value="5" checked /> 5 - Ich stimme
+            voll zu.<span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A1" value="4" /> 4
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A1" value="3" /> 3
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A1" value="2" /> 2
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A1" value="1" /> 1
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A1" value="0" /> 0 - Ich stimme gar nicht
+            zu. <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A1" value="6" /> Überspringen.
+            <span class="checkmark"></span
+          ></label>
+        </div>
+        <div id="d1a">
+          <h2>
+            Ist Dir die Aussage besonders wichtig?
+          </h2>
+        </div>
+        <div id="d4">
+          <label class="antworten">
+            <input type="radio" name="W1" value="1" checked /> Ja.
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten">
+            <input type="radio" name="W1" value="0" /> Nein.
+            <span class="checkmark"></span
+          ></label>
+        </div>
+      </a>
+      <a>
+        <div id="d1a">
+          <h1 class="aussage">
+            Das Einschulungsalter sollte flexibler geregelt werden können.
+          </h1>
+        </div>
+        <div id="d4">
+          <label class="antworten"
+            ><input type="radio" name="A2" value="5" checked /> 5 - Ich stimme
+            voll zu.<span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A2" value="4" /> 4
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A2" value="3" /> 3
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A2" value="2" /> 2
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A2" value="1" /> 1
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A2" value="0" /> 0 - Ich stimme gar nicht
+            zu. <span class="checkmark"></span
+          ></label>
+          <label class="antworten"
+            ><input type="radio" name="A2" value="6" /> Überspringen.
+            <span class="checkmark"></span
+          ></label>
+        </div>
+        <div id="d1a">
+          <h2>
+            Ist Dir die Aussage besonders wichtig?
+          </h2>
+        </div>
+        <div id="d4">
+          <label class="antworten">
+            <input type="radio" name="W2" value="1" checked /> Ja.
+            <span class="checkmark"></span
+          ></label>
+          <label class="antworten">
+            <input type="radio" name="W2" value="0" /> Nein.
+            <span class="checkmark"></span
+          ></label>
+        </div>
+      </a>
+      <div id="d5">
+        <a href="#target1">
+          <button onclick="wahlomat()">
+            Zur Auswertung.
+          </button>
+        </a>
+      </div>
+    </div>
+    <a name="target1" href="#target2">
+      <div id="Auswertung"></div>
+    </a>
+
+    <script src="render.js"></script>
+  </body>
+</html>
