@@ -1,0 +1,58 @@
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="Start" class="wrapper">
+      <div id="d1">
+        <a name="target2">
+          <h1>
+            Willkommen zu unserem Herner SPD Wahl-O-Mat!
+          </h1>
+        </a>
+        <h2>
+          Wenn Du bereit bist, klicke auf Start.
+        </h2>
+      </div>
+      <div id="d3">
+        <img
+          src="https://indieneuezeit.spd.de/fileadmin/_processed_/c/a/csm_BPT19_Logo_1200x630_56e26730d3.png"
+        />
+      </div>
+      <div id="d2">
+        <a href="#target">
+          <button onclick="show()">
+            Start.
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div id="Fragen" style="display: none;" class="wrapper">
+      <a name="target">
+        <div id="d1a" style="padding-top: 5vh;">
+          <h2>
+            Wie stehst Du zu den folgenden Aussagen?
+          </h2>
+          <div id="aussagen"></div>
+        </div>
+      </a>
+      <div id="d5">
+        <a href="#target1">
+          <button onclick="wahlomat()">
+            Zur Auswertung.
+          </button>
+        </a>
+      </div>
+    </div>
+    <a name="target1" href="#target2">
+      <div id="Auswertung"></div>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>
