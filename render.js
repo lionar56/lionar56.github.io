@@ -25,101 +25,101 @@ wahlomat = function () {
         SPD += 5;
         eig_Pkt += pkt2;
     }
-    var pkt2 = parseInt(document.querySelector('input[name=A3]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W3]:checked").value);
-    if (pkt2 == 6) {
+    var pkt3 = parseInt(document.querySelector('input[name=A3]:checked').value);
+    var wichtig3 = parseInt(document.querySelector("input[name=W3]:checked").value);
+    if (pkt3 == 6) {
         SPD += 0;
         eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
+    } else if (wichtig3 == 1) {
+        SPD += 10;
+        eig_Pkt += 2 * pkt3;
+    } else if (wichtig3 == 0) {
+        SPD += 5;
+        eig_Pkt += pkt3;
+    }
+    var pkt4 = parseInt(document.querySelector('input[name=A4]:checked').value);
+    var wichtig4 = parseInt(document.querySelector("input[name=W4]:checked").value);
+    if (pkt4 == 6) {
+        SPD += 0;
+        eig_Pkt += 0;
+    } else if (wichtig4 == 1) {
+        SPD += 10;
+        eig_Pkt += 2 * pkt4;
+    } else if (wichtig4 == 0) {
+        SPD += 5;
+        eig_Pkt += pkt4;
+    }
+    var pkt5 = parseInt(document.querySelector('input[name=A5]:checked').value);
+    var wichtig5 = parseInt(document.querySelector("input[name=W5]:checked").value);
+    if (pkt5 == 6) {
+        SPD += 0;
+        eig_Pkt += 0;
+    } else if (wichtig5 == 1) {
+        SPD += 10;
+        eig_Pkt += 2 * pkt5;
+    } else if (wichtig5 == 0) {
+        SPD += 5;
+        eig_Pkt += pkt5;
+    }
+    var pkt6 = parseInt(document.querySelector('input[name=A6]:checked').value);
+    var wichtig6 = parseInt(document.querySelector("input[name=W6]:checked").value);
+    if (pkt6 == 6) {
+        SPD += 0;
+        eig_Pkt += 0;
+    } else if (wichtig6 == 1) {
+        SPD += 10;
+        eig_Pkt += 2 * pkt6;
+    } else if (wichtig6 == 0) {
+        SPD += 5;
+        eig_Pkt += pkt6;
+    }
+    var pkt7 = parseInt(document.querySelector('input[name=A7]:checked').value);
+    var wichtig7 = parseInt(document.querySelector("input[name=W7]:checked").value);
+    if (pkt7 == 6) {
+        SPD += 0;
+        eig_Pkt += 0;
+    } else if (wichtig7 == 1) {
+        SPD += 10;
+        eig_Pkt += 2 * pkt7;
+    } else if (wichtig7 == 0) {
+        SPD += 5;
+        eig_Pkt += pkt7;
+    }
+    var pkt8 = parseInt(document.querySelector('input[name=A8]:checked').value);
+    var wichtig8 = parseInt(document.querySelector("input[name=W8]:checked").value);
+    if (pkt8 == 6) {
+        SPD += 0;
+        eig_Pkt += 0;
+    } else if (wichtig8 == 1) {
+        SPD += 10;
+        eig_Pkt += 2 * pkt8;
+    } else if (wichtig8 == 0) {
+        SPD += 5;
+        eig_Pkt += pkt8;
+    }
+    var pkt9 = parseInt(document.querySelector('input[name=A9]:checked').value);
+    var wichtig9 = parseInt(document.querySelector("input[name=W9]:checked").value);
+    if (pkt9 == 6) {
+        SPD += 0;
+        eig_Pkt += 0;
+    } else if (wichtig9 == 1) {
         SPD += 10;
         eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
+    } else if (wichtig9 == 0) {
         SPD += 5;
         eig_Pkt += pkt2;
     }
-    var pkt2 = parseInt(document.querySelector('input[name=A4]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W4]:checked").value);
-    if (pkt2 == 6) {
+    var pkt10 = parseInt(document.querySelector('input[name=A10]:checked').value);
+    var wichtig10 = parseInt(document.querySelector("input[name=W10]:checked").value);
+    if (pkt10 == 6) {
         SPD += 0;
         eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
+    } else if (wichtig10 == 1) {
         SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
+        eig_Pkt += 2 * pkt10;
+    } else if (wichtig10 == 0) {
         SPD += 5;
-        eig_Pkt += pkt2;
-    }
-    var pkt2 = parseInt(document.querySelector('input[name=A5]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W5]:checked").value);
-    if (pkt2 == 6) {
-        SPD += 0;
-        eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
-        SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
-        SPD += 5;
-        eig_Pkt += pkt2;
-    }
-    var pkt2 = parseInt(document.querySelector('input[name=A6]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W6]:checked").value);
-    if (pkt2 == 6) {
-        SPD += 0;
-        eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
-        SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
-        SPD += 5;
-        eig_Pkt += pkt2;
-    }
-    var pkt2 = parseInt(document.querySelector('input[name=A7]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W7]:checked").value);
-    if (pkt2 == 6) {
-        SPD += 0;
-        eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
-        SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
-        SPD += 5;
-        eig_Pkt += pkt2;
-    }
-    var pkt2 = parseInt(document.querySelector('input[name=A8]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W8]:checked").value);
-    if (pkt2 == 6) {
-        SPD += 0;
-        eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
-        SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
-        SPD += 5;
-        eig_Pkt += pkt2;
-    }
-    var pkt2 = parseInt(document.querySelector('input[name=A9]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W9]:checked").value);
-    if (pkt2 == 6) {
-        SPD += 0;
-        eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
-        SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
-        SPD += 5;
-        eig_Pkt += pkt2;
-    }
-    var pkt2 = parseInt(document.querySelector('input[name=A10]:checked').value);
-    var wichtig2 = parseInt(document.querySelector("input[name=W10]:checked").value);
-    if (pkt2 == 6) {
-        SPD += 0;
-        eig_Pkt += 0;
-    } else if (wichtig2 == 1) {
-        SPD += 10;
-        eig_Pkt += 2 * pkt2;
-    } else if (wichtig2 == 0) {
-        SPD += 5;
-        eig_Pkt += pkt2;
+        eig_Pkt += pkt10;
     }
     
     var Aussage = document.querySelector("#Auswertung");
