@@ -58,6 +58,7 @@ show = function () {
     feld.style.display = "block";
     var feld = document.querySelector("#Start");
     feld.style.display = "none";
+    generate();
 }
 hide = function () {
     var feld = document.querySelector("#Fragen");
@@ -65,3 +66,86 @@ hide = function () {
     var feld = document.querySelector("#Auswertung");
     feld.style.display = "none";
 }
+function generate() {
+    aussagen.forEach((aussage, index) => {
+        //Overelement erstellen
+        var aussageElement = $("<div></div>")
+
+        //Aussage einblenden
+        var h1 = $("<h1 class='aussage'>" + aussage.aussage + "</h1>");
+        aussageElement.append(h1);
+
+        //Das sagte die SPD dazu
+        var spddazu = $("<details></details>")
+        spddazu.append($("<summary> Das sagt die SPD Herne dazu: </summary>"));
+
+        var container = $("<div class='container'></div>");
+        container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>");
+        container.append("<div class='bottom'>Klick hier.</div >");
+
+        var overlay = $("<div class='overlay'></div >");
+        overlay.append("<div div class='text'>" + aussage.erklärtext + "</div>");
+
+        container.append(overlay);
+        spddazu.append(container);
+        aussageElement.append(spddazu);
+
+        //antworten radio buttons
+        var antworten = $("<div id='d4'></div>");
+
+        var texte = ["5 - Ich stimme voll zu.", "4", "3", "2", "1"
+            , "0 - Ich stimme gar nicht zu.", "Überspringen."]
+
+        texte.forEach((text, i) => {
+            var value = 5 - i; //5,4,3,2,1,0,-1 => 6
+            if (value == -1) value = 6; //Setz den letzten Wert auf 6
+            var checked = ""
+            if (value == 5) checked = "checked" //Sorgt dafür, dass nur das erste checked ist
+
+            var checkbox = $("<label class='antworten'></label>")
+            checkbox.append($("<input type='radio' name='A" + (index + 1) + "' value='" + value + "' " + checked + " />\
+            "+ text + "\
+            <span class= 'checkmark' ></span>\
+            </label >"));
+            antworten.append(checkbox);
+        });
+
+        aussageElement.append(antworten);
+
+        //Wichtigkeit
+        var wichtig = $("<div id='d1a'></div>");
+        wichtig.append($("<h2>Ist Dir die Aussage besonders wichtig ?</h2 >"))
+
+        var boxen = $("<div id='d4'></div>")
+        boxen.append($("<label class='antworten'>\
+            <input type = 'radio' name = 'W"+ (index + 1) + "' value = '1' checked /> Ja.\
+            <span class= 'checkmark' ></span>\
+            </label>"))
+        boxen.append($("<label class='antworten'>\
+            <input type = 'radio' name = 'W"+ (index + 1) + "' value = '0'/> Nein.\
+            <span class= 'checkmark' ></span>\
+            </label>"))
+
+        wichtig.append(boxen);
+        aussageElement.append(wichtig);
+        //An der korrekten Stelle einfügen
+        $("#aussagen").append(aussageElement);
+    });
+}
+
+var aussagen = [
+    {
+        aussage: "Lokale erinnerungspolitische Initiativen, die politisch-historische\
+            Bildungsarbeit zum Nationalsozialismus leisten, sollen unterstützt\
+            werden.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Das Einschulungsalter sollte flexibler geregelt werden können.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+]
