@@ -135,15 +135,61 @@ function generate() {
 
 var aussagen = [
     {
-        aussage: "Lokale erinnerungspolitische Initiativen, die politisch-historische\
-            Bildungsarbeit zum Nationalsozialismus leisten, sollen unterstützt\
-            werden.",
+        aussage: "Die Bildung von Betriebsräten sollte angeregt werden, z.B. durch die Einrichtung des 'Runder Tisch Mitbestimmung'.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
     },
     {
         aussage: "Das Einschulungsalter sollte flexibler geregelt werden können.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    { 
+        aussage: "Es sollte ein Eltern-/Familienbonusheft eingeführt werden.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Ein Kinderschutzbeauftragter, eine Kinderschutzbeautragte sollte eingesetzt werden.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Neubauprojekte und Sanierungen sollen klimarelevant durchgeführt werden, z.B. durch Dachbegrünung oder Photovoltaikanlagen.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Familien- und frauenbewusste Politik sollte in kommunalen Unternehmen verankert werden.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "In Wohnquartieren sollte der PkW-Vekehr reduziert weden, z.B. durch Schaffung von Tempo 30-Zonen.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Für den sozialen Wohnungsbau sollten Flächen vorgehalten werden.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Die interkulturelle Öffnung der Verwaltung und ihrer Tochtergesellschaften sollte weiter vorangetrieben werden.",
+        bild_src: "hans.jpg",
+        bild_alt: "Hans",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
+    },
+    {
+        aussage: "Es sollte mehr Ladeinfrastruktur für E-Fahrzeuge geschaffen werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
