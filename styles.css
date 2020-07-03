@@ -116,6 +116,7 @@ button:hover {
   font-size: 20;
   font-family: Calibri;
   font-weight: bold;
+  text-align: left;
 }
 .antworten input {
   position: absolute;
