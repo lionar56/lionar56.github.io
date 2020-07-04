@@ -186,6 +186,11 @@ details > summary {
   height: auto;
   border-radius: 20%;
 }
+.logo{
+  width: 55%;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
 
 .overlay {
   position: absolute;
