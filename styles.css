@@ -57,6 +57,7 @@ div#d1 {
   text-align: center;
   padding-top: 4vh;
   padding-bottom: 2vh;
+  font-size: 45;
 }
 div#d1a {
   grid-column-start: 1;
@@ -68,6 +69,7 @@ div#d2 {
   display: flex;
   align-items: center;
   padding-left: 30%;
+  font-weight: normal;
 }
 div#d3 {
   display: flex;
@@ -106,8 +108,9 @@ button {
   font-size: 20;
 }
 button:hover {
-  background-color: #00b4cc;
-  color: #B61C3E;
+  background-color: #B61C3E;
+  color: white;
+  border-color: #B61C3E;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
