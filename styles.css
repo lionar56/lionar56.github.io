@@ -318,11 +318,10 @@ details > summary {
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white;
-    color: #B61C3E;
-    border: 5px solid #B61C3E;
+    background-color: #E3000F;
+    color: white;
+    border: 5px solid #E3000F;
     margin-top: 7%;
-    border-radius: 20%;
   }
   .neu {
     margin-top: 5vh;
@@ -331,8 +330,9 @@ details > summary {
     margin-left: 5vw;
   }
   button:hover {
-    background-color: #00b4cc;
-    color: #B61C3E;
+    background-color: #B61C3E;
+    border-color: #B61C3E;
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
