@@ -89,7 +89,6 @@ div#weiss {
   background: white;
   margin-left: 10vw;
   margin-right: 10vw;
-  padding-top: 1vh;
   padding-bottom: 1vh;
 }
 button {
@@ -320,7 +319,6 @@ details > summary {
     background: white;
     margin-left: 2vw;
     margin-right: 2vw;
-    padding-top: 1vh;
     padding-bottom: 1vh;
   }
   button {
