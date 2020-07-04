@@ -15,8 +15,7 @@ img {
 }
 .logo{
   width: 55%;
-  margin-left: 2vw;
-  margin-bottom: 0vw;
+  margin-left: 1vw;
 }
 h1 {
   color: #B61C3E;
@@ -186,11 +185,6 @@ details > summary {
   height: auto;
   border-radius: 20%;
 }
-.logo{
-  width: 55%;
-  margin-left: 5vw;
-  margin-bottom: 5vw;
-}
 
 .overlay {
   position: absolute;
@@ -245,6 +239,11 @@ details > summary {
   }
   img {
     width: 100vw;
+  }
+  .logo{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5vw;
   }
   h1 {
     color: #B61C3E;
