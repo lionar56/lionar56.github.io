@@ -94,11 +94,11 @@ button {
   font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: white;
-  color: #B61C3E;
-  border: 5px solid #B61C3E;
+  background-color: #E3000F;
+  color: white;
+  border: 5px solid #E3000F;
   margin-top: 7%;
-  border-radius: 20%;
+  border-radius: 0%;
 }
 .neu {
   margin-top: 10vh;
