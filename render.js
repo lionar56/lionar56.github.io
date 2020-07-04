@@ -166,7 +166,7 @@ hide = function () {
 function generate() {
     aussagen.forEach((aussage, index) => {
         //Overelement erstellen
-        var aussageElement = $("<div></div>")
+        var aussageElement = $("<div id='weiss'></div>")
 
         //Aussage einblenden
         var h1 = $("<h1 class='aussage'>" + aussage.aussage + "</h1>");
