@@ -90,6 +90,8 @@ div#weiss {
   margin-left: 10vw;
   margin-right: 10vw;
   padding-bottom: 1vh;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 button {
   padding: 16px 32px;
@@ -320,6 +322,8 @@ details > summary {
     margin-left: 2vw;
     margin-right: 2vw;
     padding-bottom: 1vh;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
   button {
     padding: 16px 32px;
