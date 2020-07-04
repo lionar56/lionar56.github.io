@@ -20,7 +20,7 @@ img {
 }
 h1 {
   color: #E3000F;
-  font-size: 40;
+  font-size: 45;
   font-family: Calibri;
   font-weight: bold;
 }
@@ -28,7 +28,6 @@ h2 {
   color: #E3000F;
   font-size: 30;
   font-family: Calibri;
-  font-weight: bold;
 }
 h3 {
   color: #B61C3E;
@@ -69,7 +68,6 @@ div#d2 {
   display: flex;
   align-items: center;
   padding-left: 30%;
-  font-weight: normal;
 }
 div#d3 {
   display: flex;
