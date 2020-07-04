@@ -316,6 +316,13 @@ details > summary {
     padding-right: 12vw;
     grid-column-start: 1;
   }
+  div#weiss {
+    background: white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
   button {
     padding: 16px 32px;
     text-align: center;
