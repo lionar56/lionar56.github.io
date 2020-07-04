@@ -235,7 +235,7 @@ details > summary {
   .wrapper {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 40vh 20vh 40vh;
+    grid-template-rows: 30vh 20vh 40vh;
   }
   body {
     background-color: #eeeeee;
