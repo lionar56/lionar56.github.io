@@ -13,22 +13,27 @@ body {
 img {
   width: 100%;
 }
+.logo{
+  width: 55%;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
 h1 {
   color: #B61C3E;
   font-size: 40;
-  font-family: Lato;
+  font-family: Calibri;
   font-weight: bold;
 }
 h2 {
   color: #B61C3E;
   font-size: 30;
-  font-family: Lato;
+  font-family: Calibri;
   font-weight: bold;
 }
 h3 {
   color: #B61C3E;
   font-size: 25;
-  font-family: Lato;
+  font-family: Calibri;
   font-weight: bold;
 }
 .aussage {
@@ -85,7 +90,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 40;
-  font-family: Lato;
+  font-family: Calibri;
   font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -163,7 +168,7 @@ details {
 details > summary {
   color: #B61C3E;
   font-size: 20;
-  font-family: Lato;
+  font-family: Calibri;
   cursor: pointer;
   margin-bottom: 1vh;
 }
@@ -215,7 +220,7 @@ details > summary {
   bottom: 1vh;
   left: 45%;
   font-size: 20;
-  font-family: Lato;
+  font-family: Calibri;
   color: #B61C3E;
   font-weight: bold;
 }
@@ -239,20 +244,20 @@ details > summary {
   h1 {
     color: #B61C3E;
     font-size: 35;
-    font-family: Lato;
+    font-family: Calibri;
     font-weight: bold;
   }
   h2 {
     color: #B61C3E;
     font-size: 20;
-    font-family: Lato;
+    font-family: Calibri;
     font-weight: bold;
   }
   h3 {
     margin-top: 0;
     color: #B61C3E;
     font-size: 25;
-    font-family: Lato;
+    font-family: Calibri;
     font-weight: bold;
   }
   .aussage {
@@ -264,7 +269,7 @@ details > summary {
   div#Auswertung {
     color: #B61C3E;
     font-size: 30;
-    font-family: Lato;
+    font-family: Calibri;
     font-weight: bold;
     padding-left: 15vw;
     padding-right: 15vw;
@@ -303,7 +308,7 @@ details > summary {
     text-align: center;
     text-decoration: none;
     font-size: 30;
-    font-family: Lato;
+    font-family: Calibri;
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -333,7 +338,7 @@ details > summary {
     padding-left: 9vw;
     color: #B61C3E;
     font-size: 20;
-    font-family: Lato;
+    font-family: Calibri;
     font-weight: bold;
   }
   .antworten input {
@@ -381,7 +386,7 @@ details > summary {
   details > summary {
     color: #B61C3E;
     font-size: 20;
-    font-family: Lato;
+    font-family: Calibri;
     cursor: pointer;
     margin-bottom: 1vh;
   }
@@ -427,14 +432,14 @@ details > summary {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-family: Lato;
+    font-family: Calibri;
   }
   .bottom {
     position: absolute;
     bottom: 1vh;
     left: 42%;
     font-size: 15;
-    font-family: Lato;
+    font-family: Calibri;
     color: #B61C3E;
     font-weight: bold;
   }
