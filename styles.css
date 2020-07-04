@@ -233,7 +233,7 @@ details > summary {
   .wrapper {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 30vh 20vh 40vh;
+    grid-template-rows: 30vh 30vh 40vh;
   }
   body {
     background-color: #eeeeee;
@@ -248,16 +248,15 @@ details > summary {
     margin-bottom: 5vw;
   }
   h1 {
-    color: #B61C3E;
-    font-size: 35;
+    color: #E3000F;
+    font-size: 30;
     font-family: Calibri;
     font-weight: bold;
   }
   h2 {
-    color: #B61C3E;
+    color: #E3000F;
     font-size: 20;
     font-family: Calibri;
-    font-weight: bold;
   }
   h3 {
     margin-top: 0;
