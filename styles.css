@@ -87,6 +87,10 @@ div#d5 {
 }
 div#weiss {
   background: white;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 button {
   padding: 16px 32px;
