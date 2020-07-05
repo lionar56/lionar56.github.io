@@ -192,11 +192,12 @@ details {
   margin-bottom: 3vh;
 }
 details > summary {
-  color: #B61C3E;
+  color: black;
   font-size: 20;
   font-family: Calibri;
   cursor: pointer;
   margin-bottom: 1vh;
+  border-bottom: 2px solid #E3000F;
 }
 .container {
   position: relative;
