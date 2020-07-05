@@ -101,7 +101,6 @@ div#weiss {
   grid-template-columns: 20% 80%;
 }
 p#p1{
-  padding-top: 4vh;
   font-size: 50;
   font-weight: bold;
   text-align: center;
@@ -109,7 +108,6 @@ p#p1{
 p#p2{
   font-size: 25;
   text-align: center;
-  padding-bottom: 4vh;
 }
 
 button {
