@@ -98,15 +98,15 @@ div#weiss {
   color: white;
   font-family: Calibri;
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 20% 80%;
 }
 p#p1{
-  font-size: 35;
+  font-size: 45;
   font-weight: bold;
   text-align: center;
 }
-p#p1{
-  font-size: 25;
+p#p2{
+  font-size: 35;
   font-weight: bold;
   text-align: center;
 }
