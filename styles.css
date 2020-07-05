@@ -198,6 +198,7 @@ details > summary {
   cursor: pointer;
   margin-bottom: 1vh;
   border-bottom: 2px solid #E3000F;
+  border-left-width: 50%;
 }
 .container {
   position: relative;
