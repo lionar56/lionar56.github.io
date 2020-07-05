@@ -99,9 +99,18 @@ div#weiss {
   font-family: Calibri;
   display: grid;
   grid-template-columns: 25% 75%;
+}
+p#p1{
   font-size: 35;
   font-weight: bold;
+  text-align: center;
 }
+p#p1{
+  font-size: 25;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 button {
   padding: 16px 32px;
