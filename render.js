@@ -174,7 +174,7 @@ function generate() {
 
         //Das sagte die SPD dazu
         var spddazu = $("<details></details>")
-        spddazu.append($("<summary> Das sagt die SPD Herne dazu: </summary>"));
+        spddazu.append($("<summary> Das sagt die SPD Herne dazu:  </summary>"));
 
         var container = $("<div class='container'></div>");
         container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>");
