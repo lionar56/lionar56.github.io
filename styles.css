@@ -35,6 +35,11 @@ h3 {
   font-size: 25;
   font-family: Calibri;
   font-weight: bold;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .aussage {
   color: #E3000F;
