@@ -203,6 +203,9 @@ details > summary {
 details[open]>summary{
   text-decoration: none;
 }
+summary::-webkit-details-marker {
+  color: #E3000F;
+}
 .container {
   position: relative;
   width: 50%;
