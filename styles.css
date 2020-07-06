@@ -309,13 +309,8 @@ summary::-webkit-details-marker {
     padding-right: 10%;
   }
   div#Auswertung {
-    color: #B61C3E;
-    font-size: 30;
-    font-family: Calibri;
-    font-weight: bold;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    padding-top: 20vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
   div#d1 {
     text-align: center;
