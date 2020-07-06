@@ -200,6 +200,9 @@ details > summary {
   border-bottom: 2px solid #E3000F;
   text-decoration: underline #E3000F;
 }
+details[open]>summary{
+  text-decoration: none;
+}
 .container {
   position: relative;
   width: 50%;
