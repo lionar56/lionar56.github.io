@@ -143,6 +143,9 @@ wahlomat = function () {
     } else {
         Aussage.innerHTML = "<div id='d1'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3></div><a href=#target2><button class='neu' onclick='hide()'>Noch einmal.</button></a> <a href=mailto: amelie.menges@gmx.de> <button class='neu'> Kontaktiere uns. </button> <a>"
     }
+    Prz=0;
+    eig_Pkt=0;
+    SPD=0;
     var feld = document.querySelector("#Auswertung");
     feld.style.display = "block";
     var feld = document.querySelector("#Fragen");
