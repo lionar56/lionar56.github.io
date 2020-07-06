@@ -197,7 +197,6 @@ details > summary {
   font-family: Calibri;
   cursor: pointer;
   margin-bottom: 1vh;
-  border-bottom: 2px solid #E3000F;
   text-decoration: underline #E3000F;
 }
 details[open]>summary{
