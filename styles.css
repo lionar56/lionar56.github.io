@@ -36,8 +36,8 @@ h3 {
   font-family: Calibri;
   font-weight: bold;
   text-align: center;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
