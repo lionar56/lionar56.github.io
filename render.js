@@ -104,10 +104,10 @@ wahlomat = function () {
         eig_Pkt += 0;
     } else if (wichtig9 == 1) {
         SPD += 10;
-        eig_Pkt += 2 * pkt2;
+        eig_Pkt += 2 * pkt9;
     } else if (wichtig9 == 0) {
         SPD += 5;
-        eig_Pkt += pkt2;
+        eig_Pkt += pkt9;
     }
     var pkt10 = parseInt(document.querySelector('input[name=A10]:checked').value);
     var wichtig10 = parseInt(document.querySelector("input[name=W10]:checked").value);
@@ -143,9 +143,6 @@ wahlomat = function () {
     } else {
         Aussage.innerHTML = "<div id='d1'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3></div><a href=#target2><button class='neu' onclick='hide()'>Noch einmal.</button></a> <a href=mailto: amelie.menges@gmx.de> <button class='neu'> Kontaktiere uns. </button> <a>"
     }
-    Prz=0;
-    eig_Pkt=0;
-    SPD=0;
     var feld = document.querySelector("#Auswertung");
     feld.style.display = "block";
     var feld = document.querySelector("#Fragen");
