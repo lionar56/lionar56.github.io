@@ -289,8 +289,8 @@ summary::-webkit-details-marker {
   }
   .wrapper2 {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 40% 30%; 
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vh 30vh 40vh;
   }
   body {
     background-color: #eeeeee;
