@@ -287,6 +287,11 @@ summary::-webkit-details-marker {
     grid-template-columns: 100vw;
     grid-template-rows: 30vh 30vh 40vh;
   }
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 40% 30%; 
+  }
   body {
     background-color: #eeeeee;
     margin: 0;
