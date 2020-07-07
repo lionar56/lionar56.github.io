@@ -290,7 +290,7 @@ summary::-webkit-details-marker {
   .wrapper2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 30vh 30vh 40vh;
+    grid-template-rows: 30vh 40vh 30vh;
   }
   body {
     background-color: #eeeeee;
@@ -329,7 +329,7 @@ summary::-webkit-details-marker {
   }
   h3 {
     margin-top: 0;
-    color: black;
+    color: #E3000F
     font-size: 25;
     font-family: Calibri;
     font-weight: bold;
