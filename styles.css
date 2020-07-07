@@ -23,6 +23,18 @@ img {
   margin-left: 5vw;
   margin-bottom:0vh;
 }
+img#logo2{
+  display: block; 
+  width: 100%; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+}
+img#logo3{
+  display: block; 
+  width: 80%; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+}
 h1 {
   color: #E3000F;
   font-size: 45;
@@ -286,6 +298,12 @@ summary::-webkit-details-marker {
     width: 60%;
     margin-left: 20%;
     margin-bottom: 5vw;
+  }
+  img#logo2{
+    display: block; 
+    width: 50%; 
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   h1 {
     color: #E3000F;
