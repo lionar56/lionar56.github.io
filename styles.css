@@ -290,7 +290,7 @@ summary::-webkit-details-marker {
   .wrapper2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 30vh 45vh 25vh;
+    grid-template-rows: 30vh 40vh 25vh;
   }
   body {
     background-color: #eeeeee;
@@ -342,6 +342,7 @@ summary::-webkit-details-marker {
   div#Auswertung {
     margin-top: 5vh;
     color: black;
+    margin-top: 5vh;
   }
   div#d1 {
     text-align: center;
