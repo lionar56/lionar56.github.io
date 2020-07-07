@@ -301,9 +301,9 @@ summary::-webkit-details-marker {
   }
   img#logo2{
     display: block; 
-    width: 50%; 
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 20%; 
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
   h1 {
     color: #E3000F;
