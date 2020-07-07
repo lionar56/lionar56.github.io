@@ -384,8 +384,8 @@ summary::-webkit-details-marker {
   p#p2{
     font-size: 18;
     text-align: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
   button {
     padding: 16px 32px;
