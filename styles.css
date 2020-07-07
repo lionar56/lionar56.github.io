@@ -302,8 +302,8 @@ summary::-webkit-details-marker {
   img#logo2{
     display: block; 
     width: 20%; 
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
   }
   h1 {
     color: #E3000F;
@@ -382,7 +382,7 @@ summary::-webkit-details-marker {
     text-align: center;
   }
   p#p2{
-    font-size: 15;
+    font-size: 20;
     text-align: center;
   }
   button {
