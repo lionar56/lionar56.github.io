@@ -290,7 +290,7 @@ summary::-webkit-details-marker {
   .wrapper2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 30vh 40vh 30vh;
+    grid-template-rows: 30vh 45vh 25vh;
   }
   body {
     background-color: #eeeeee;
