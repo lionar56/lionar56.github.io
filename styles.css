@@ -324,10 +324,10 @@ summary::-webkit-details-marker {
     font-weight: bold;
   }
   .aussage {
-    color: #00b4cc;
-    font-size: 25;
-    padding-left: 10%;
-    padding-right: 10%;
+    color: #E3000F;
+    font-size: 20;
+    padding-left: 7%;
+    padding-right: 7%;
   }
   div#Auswertung {
     grid-column-start: 1;
