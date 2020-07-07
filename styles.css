@@ -98,8 +98,8 @@ div#Auswertung{
   grid-row-end: 4;
 }
 div#Knoepfe{
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 40vw;
+  padding-right: 40vw;
 }
 .header{
   background-color: #E3000F;
