@@ -382,8 +382,10 @@ summary::-webkit-details-marker {
     text-align: center;
   }
   p#p2{
-    font-size: 20;
+    font-size: 18;
     text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
   button {
     padding: 16px 32px;
