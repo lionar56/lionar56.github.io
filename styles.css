@@ -420,10 +420,9 @@ summary::-webkit-details-marker {
     display: block;
     margin-bottom: 1vh;
     padding-left: 9vw;
-    color: #B61C3E;
-    font-size: 20;
+    color: black;
+    font-size: 18;
     font-family: Calibri;
-    font-weight: bold;
   }
   .antworten input {
     position: absolute;
@@ -468,7 +467,7 @@ summary::-webkit-details-marker {
     margin-bottom: 3vh;
   }
   details > summary {
-    color: #B61C3E;
+    color: black;
     font-size: 20;
     font-family: Calibri;
     cursor: pointer;
