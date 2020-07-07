@@ -341,8 +341,7 @@ summary::-webkit-details-marker {
     padding-right: 7%;
   }
   div#Auswertung {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    color: black;
   }
   div#d1 {
     text-align: center;
