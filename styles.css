@@ -38,18 +38,18 @@ img#logo3{
 h1 {
   color: #E3000F;
   font-size: 45;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   font-weight: bold;
 }
 h2 {
   color: #E3000F;
   font-size: 30;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
 }
 h3 {
   color: #e3000F;
   font-size: 25;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   margin-left: 5vw;
@@ -116,7 +116,7 @@ div#Knoepfe{
 .header{
   background-color: #E3000F;
   color: white;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 20% 80%;
 }
@@ -136,7 +136,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 40;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -166,7 +166,7 @@ button:hover {
   padding-left: 4vw;
   color: black;
   font-size: 20;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   text-align: left;
 }
 .antworten input {
@@ -214,7 +214,7 @@ details {
 details > summary {
   color: black;
   font-size: 20;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   cursor: pointer;
   margin-bottom: 1vh;
   text-decoration: underline #E3000F;
@@ -266,14 +266,14 @@ summary::-webkit-details-marker {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
 }
 .bottom {
   position: absolute;
   bottom: 1vh;
   left: 45%;
   font-size: 20;
-  font-family: Calibri;
+  font-family: Calibri, Helvetica, sans-serif;
   color: #E3000F;
   font-weight: bold;
 }
@@ -319,18 +319,18 @@ summary::-webkit-details-marker {
   h1 {
     color: #E3000F;
     font-size: 30;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
   }
   h2 {
     color: #E3000F;
     font-size: 20;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
   }
   h3 {
     color: #E3000F;
     font-size: 25;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
   }
   .aussage {
@@ -383,7 +383,7 @@ summary::-webkit-details-marker {
   .header{
     background-color: #E3000F;
     color: white;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
   }
@@ -403,7 +403,7 @@ summary::-webkit-details-marker {
     text-align: center;
     text-decoration: none;
     font-size: 30;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -433,7 +433,7 @@ summary::-webkit-details-marker {
     padding-left: 9vw;
     color: black;
     font-size: 18;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
   }
   .antworten input {
     position: absolute;
@@ -480,7 +480,7 @@ summary::-webkit-details-marker {
   details > summary {
     color: black;
     font-size: 20;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
     cursor: pointer;
     margin-bottom: 1vh;
   }
@@ -526,14 +526,14 @@ summary::-webkit-details-marker {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
   }
   .bottom {
     position: absolute;
     bottom: 1vh;
     left: 42%;
     font-size: 15;
-    font-family: Calibri;
+    font-family: Calibri, Helvetica, sans-serif;
     color: #E3000F;
     font-weight: bold;
   }
