@@ -426,6 +426,7 @@ summary::-webkit-details-marker {
     display: block;
     font-size: 20;
     width: 40vw;
+    padding: 10px 20px;
   }
   button:hover {
     background-color: #B61C3E;
