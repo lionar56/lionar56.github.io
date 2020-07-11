@@ -387,7 +387,7 @@ summary::-webkit-details-marker {
     display: flex;  
     justify-content: center;  
     align-items: center;
-    width: 100vw;
+    width: 100%;
   }
   .header{
     background-color: #E3000F;
