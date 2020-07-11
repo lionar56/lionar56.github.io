@@ -356,7 +356,7 @@ summary::-webkit-details-marker {
     padding-left: 2vw;
   }
   div#d2 {
-    grid-row-start: 2;
+    grid-row: 2;
     margin: 0;
     position: absolute;
     top: 50%;
