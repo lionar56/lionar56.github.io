@@ -357,7 +357,6 @@ summary::-webkit-details-marker {
   }
   div#d2 {
     grid-row-start: 2;
-    grid-column-start: 1;
     margin: 0;
     position: absolute;
     top: 50%;
