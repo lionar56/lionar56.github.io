@@ -387,7 +387,7 @@ summary::-webkit-details-marker {
     display: flex;  
     justify-content: center;  
     align-items: center;
-    width: 50%;
+    width: 60%;
   }
   .header{
     background-color: #E3000F;
@@ -424,8 +424,8 @@ summary::-webkit-details-marker {
 
   .neu {
     padding: 3px 5px;
-    font-size: 18;
-    width: 35vw;
+    font-size: 20;
+    width: 40vw;
     height: 10vh;
     display: block;
   }
