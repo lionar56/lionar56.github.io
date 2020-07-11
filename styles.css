@@ -424,6 +424,7 @@ summary::-webkit-details-marker {
   .neu {
     font-size: 20;
     width: 60vw;
+    display: block;
   }
   button:hover {
     background-color: #B61C3E;
