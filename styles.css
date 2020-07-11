@@ -358,6 +358,9 @@ summary::-webkit-details-marker {
   div#d2 {
     grid-row-start: 2;
     grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   div#d3 {
     grid-row-start: 3;
@@ -371,6 +374,9 @@ summary::-webkit-details-marker {
     padding-left: 12vw;
     padding-right: 12vw;
     grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   div#weiss {
     background: white;
@@ -379,6 +385,13 @@ summary::-webkit-details-marker {
     padding-bottom: 1vh;
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
     0 10px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+  div#Knoepfe{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .header{
     background-color: #E3000F;
