@@ -357,12 +357,10 @@ summary::-webkit-details-marker {
   }
   div#d2 {
     grid-row: 2;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
   div#d3 {
     grid-row-start: 3;
