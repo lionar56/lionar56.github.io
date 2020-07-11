@@ -424,9 +424,10 @@ summary::-webkit-details-marker {
   }
   .neu {
     display: block;
-    font-size: 20;
+    font-size: 17;
     width: 40vw;
-    padding: 8px 16px;
+    padding: 8px 12px;
+    font-weight: normal;
   }
   button:hover {
     background-color: #B61C3E;
