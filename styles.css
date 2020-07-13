@@ -105,16 +105,14 @@ div#weiss {
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
 }
 div#Auswertung{
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column: 1 / span 2;
 }
 div#Knoepfe{
   text-align: center;
 }
 div#programm{
   text-align: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column: 1 / span 2;
 }
 .header{
   background-color: #E3000F;
@@ -129,8 +127,7 @@ div#programm{
   font-family: Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 15% 85%;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column: 1 / span 2;
 }
 p#p1{
   font-size: 50;
