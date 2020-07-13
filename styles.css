@@ -10,7 +10,7 @@ html {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 30% 10% 10%; 
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
 }
 body {
   background-color: #eeeeee;
