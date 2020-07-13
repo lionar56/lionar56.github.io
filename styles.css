@@ -9,7 +9,7 @@ html {
 .wrapper2 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30%; 
+  grid-template-rows: 30% 30% 15% 10%; 
 }
 body {
   background-color: #eeeeee;
@@ -113,6 +113,9 @@ div#Knoepfe{
   padding-left: 15vw;
   padding-right: 15vw;
 }
+div#programm{
+  text-align: center;
+}
 .header{
   background-color: #E3000F;
   color: white;
@@ -147,9 +150,12 @@ button {
   border-radius: 0%;
 }
 .neu {
-  margin-top: 10vh;
+  margin-top:5vh;
   margin-left: 14vw;
   font-size: 20;
+}
+.neu2{
+  font-size: 15;
 }
 button:hover {
   background-color: #B61C3E;
