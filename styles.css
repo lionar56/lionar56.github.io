@@ -114,7 +114,7 @@ div#Knoepfe{
 div#programm{
   text-align: center;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: 3;
 }
 .header{
   background-color: #E3000F;
