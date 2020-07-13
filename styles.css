@@ -117,6 +117,9 @@ div#programm{
   display: grid;
   grid-template-columns: 20% 80%;
 }
+.header2{
+  grid-template-columns: 15% 85%;
+}
 p#p1{
   font-size: 50;
   font-weight: bold;
