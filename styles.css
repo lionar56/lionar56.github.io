@@ -29,6 +29,10 @@ img#logo2{
   grid-row-start: 1; 
   grid-row-end: 3;
 }
+img#logo2{
+  display: block; 
+  width: 100%; 
+}
 h1 {
   color: #E3000F;
   font-size: 45;
@@ -122,7 +126,7 @@ div#programm{
   color: white;
   font-family: Calibri, Helvetica, sans-serif;
   display: grid;
-  grid-template-columns: 15% 90%;
+  grid-template-columns: 15% 85%;
 }
 p#p1{
   font-size: 50;
