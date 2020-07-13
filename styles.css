@@ -113,7 +113,7 @@ div#Knoepfe{
 }
 div#Knoepfe2{
   text-align: center;
-  grid-column: 1 / span 1;
+  grid-column: 2 / span 1;
 }
 div#programm{
   text-align: center;
