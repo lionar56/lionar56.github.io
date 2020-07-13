@@ -29,12 +29,6 @@ img#logo2{
   grid-row-start: 1; 
   grid-row-end: 3;
 }
-img#logo3{
-  display: block; 
-  width: 100%; 
-  grid-row-start: 1; 
-  grid-row-end: 3;
-}
 h1 {
   color: #E3000F;
   font-size: 45;
@@ -315,12 +309,6 @@ summary::-webkit-details-marker {
     width: 20%; 
     margin-left: 40%;
     margin-right: 40%;
-  }
-  img#logo3{
-    display: block;
-    width: 20%;
-    margin-right: 40%;
-    margin-left: 40%;
   }
   h1 {
     color: #E3000F;
