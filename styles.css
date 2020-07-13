@@ -9,7 +9,7 @@ html {
 .wrapper2 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 25% 30% 10% 10%; 
+  grid-template-rows: 20% 30% 10% 10%; 
 }
 body {
   background-color: #eeeeee;
