@@ -118,6 +118,10 @@ div#programm{
   grid-template-columns: 20% 80%;
 }
 .header2{
+  background-color: #E3000F;
+  color: white;
+  font-family: Calibri, Helvetica, sans-serif;
+  display: grid;
   grid-template-columns: 10% 90%;
 }
 p#p1{
