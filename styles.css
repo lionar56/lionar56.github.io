@@ -31,7 +31,7 @@ img#logo2{
 }
 img#logo3{
   display: block; 
-  width: 80%; 
+  width: 100%; 
   grid-row-start: 1; 
   grid-row-end: 3;
 }
