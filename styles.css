@@ -10,6 +10,7 @@ html {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 30% 10% 10%; 
+  grid-template-columns: 50% 50%;
 }
 body {
   background-color: #eeeeee;
@@ -104,15 +105,16 @@ div#weiss {
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
 }
 div#Auswertung{
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 div#Knoepfe{
-  padding-left: 15vw;
-  padding-right: 15vw;
+  text-align: center;
 }
 div#programm{
   text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 .header{
   background-color: #E3000F;
@@ -127,6 +129,8 @@ div#programm{
   font-family: Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 15% 85%;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 p#p1{
   font-size: 50;
