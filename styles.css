@@ -8,7 +8,7 @@ html {
 }
 .wrapper2 {
   display: grid;
-  grid-template-rows: 30% 40% 30%; 
+  grid-template-rows: 30% 45% 20%; 
   grid-template-columns: 100%;
 }
 body {
