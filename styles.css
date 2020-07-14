@@ -9,7 +9,7 @@ html {
 .wrapper2 {
   display: grid;
   grid-template-rows: 20% 30% 10% 10% 10%; 
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
 }
 body {
   background-color: #eeeeee;
@@ -107,7 +107,10 @@ div#weiss {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.Knopf{
+.knoepfe{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   text-align: center;
 }
 .header{
@@ -118,7 +121,6 @@ div#weiss {
   grid-template-columns: 20% 80%;
 }
 .header2{
-  grid-column: 1/ span 2;
   background-color: #E3000F;
   color: white;
   font-family: Calibri, Helvetica, sans-serif;
