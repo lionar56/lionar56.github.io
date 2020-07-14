@@ -113,6 +113,7 @@ div#weiss {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   text-align: center;
+  background-color: khaki;
 }
 .header{
   background-color: #E3000F;
