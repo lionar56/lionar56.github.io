@@ -157,6 +157,7 @@ button {
 .neu {
   margin-top:5vh;
   font-size: 20;
+  display: initial;
 }
 .neu2{
   font-size: 15;
