@@ -103,7 +103,11 @@ div#weiss {
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
 }
+.half{
+  text-align: center;
+}
 .full{
+  text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
 }
@@ -112,8 +116,6 @@ div#weiss {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  text-align: center;
-  background-color: khaki;
 }
 .header{
   background-color: #E3000F;
