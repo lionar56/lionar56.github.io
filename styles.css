@@ -106,7 +106,7 @@ div#weiss {
 div#Auswertung{
   grid-column: 1/span 2;
 }
-div#Knopf{
+.Knopf{
   text-align: center;
 }
 div#programm{
