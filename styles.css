@@ -8,7 +8,7 @@ html {
 }
 .wrapper2 {
   display: grid;
-  grid-template-rows: 30% 45% 20%; 
+  grid-template-rows: 25% 50% 20%; 
   grid-template-columns: 100%;
 }
 body {
@@ -99,22 +99,24 @@ div#weiss {
   background: white;
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-top: 3vh;
+  padding-top: 1vh;
   padding-bottom: 1vh;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
 }
 .half{
   text-align: center;
-}
-.full{
-  text-align: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-row: 1;
 }
 .knoepfe{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 5vh;
   grid-row: 3;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 50% 50%;
 }
 .header{
   background-color: #E3000F;
@@ -136,6 +138,7 @@ p#p1{
   text-align: center;
 }
 p#p2{
+  margin-top: -30;
   font-size: 25;
   text-align: center;
 }
@@ -157,13 +160,12 @@ button {
   border-radius: 0%;
 }
 .neu {
-  margin-top:5vh;
+  padding: 13px 17px;
   font-size: 20;
-  display: initial;
+  width: 180;
+  height: 90;
 }
-.neu2{
-  font-size: 15;
-}
+
 button:hover {
   background-color: #B61C3E;
   color: white;
@@ -250,7 +252,6 @@ summary::-webkit-details-marker {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 20%;
 }
 
 .overlay {
@@ -264,7 +265,6 @@ summary::-webkit-details-marker {
   opacity: 0;
   transition: 0.5s ease;
   background-color: #00b4cc;
-  border-radius: 20%;
 }
 
 .container:hover .overlay {
