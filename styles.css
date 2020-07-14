@@ -108,6 +108,7 @@ div#weiss {
   grid-column-end: 3;
 }
 .knoepfe{
+  grid-row: 3;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
