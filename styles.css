@@ -110,13 +110,11 @@ div#Knoepfe{
   text-align: center;
   grid-column: 1 / span 1;
   background-color: brown;
-  grid-row: 3;
 }
 div#Knoepfe2{
   text-align: center;
   grid-column: 2 / span 1;
   background-color: blue;
-  grid-row: 3;
 }
 div#programm{
   text-align: center;
