@@ -191,7 +191,7 @@ function generate() {
         var antworten = $("<div id='d4'></div>");
 
         var texte = ["5 - Ich stimme voll zu.", "4", "3", "2", "1"
-            , "0 - Ich stimme gar nicht zu.", "Überspringen."]
+            , "0 - Ich stimme gar nicht zu."]
 
         texte.forEach((text, i) => {
             var value = 5 - i; //5,4,3,2,1,0,-1 => 6
