@@ -394,11 +394,14 @@ summary::-webkit-details-marker {
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
     0 10px 30px 0 rgba(0, 0, 0, 0.19);
   }
-  div#Knoepfe{
-    display: flex;  
-    justify-content: center;  
-    align-items: center;
-    width: 55%;
+  .knoepfe{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vh;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 100%
+    grid-template-rows: auto auto auto;
   }
   .header{
     background-color: #E3000F;
