@@ -520,7 +520,6 @@ summary::-webkit-details-marker {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 20%;
   }
 
   .overlay {
@@ -534,13 +533,14 @@ summary::-webkit-details-marker {
     opacity: 0;
     transition: 0.5s ease;
     background-color: #00b4cc;
-    border-radius: 20%;
   }
 
   .container:hover .overlay {
     opacity: 1;
   }
-
+  .container:active .overlay {
+    opacity: 1;
+  }
   .text {
     color: white;
     font-size: 15;
