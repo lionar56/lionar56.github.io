@@ -400,7 +400,7 @@ summary::-webkit-details-marker {
     margin-top: 5vh;
     grid-row: 3;
     display: grid;
-    grid-template-columns: 100%
+    grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
   }
   .header{
