@@ -414,6 +414,7 @@ summary::-webkit-details-marker {
   p#p2{
     font-size: 18;
     text-align: center;
+    margin-top: 2vh ;
     padding-left: 5vw;
     padding-right: 5vw;
   }
