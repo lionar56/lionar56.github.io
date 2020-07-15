@@ -407,6 +407,13 @@ summary::-webkit-details-marker {
     display: grid;
     grid-template-columns: 100%;
   }
+  .header2{
+    background-color: #E3000F;
+    color: white;
+    font-family: Calibri, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 100%;
+  }
   p#p1{
     font-size: 25;
     font-weight: bold;
