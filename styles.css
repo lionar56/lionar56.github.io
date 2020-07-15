@@ -270,6 +270,9 @@ summary::-webkit-details-marker {
 .container:hover .overlay {
   opacity: 1;
 }
+.container:active .overlay {
+  opacity: 1;
+}
 
 .text {
   color: white;
