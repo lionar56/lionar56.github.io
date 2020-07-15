@@ -306,7 +306,7 @@ summary::-webkit-details-marker {
   .wrapper2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 30vh 40vh 25vh;
+    grid-template-rows: 25vh 40vh 30vh;
   }
   body {
     background-color: #eeeeee;
@@ -450,6 +450,10 @@ summary::-webkit-details-marker {
     width: 40vw;
     height: 10vh;
     display: block;
+  }
+  .half{
+    text-align: center;
+    grid-column: 1;
   }
   button:hover {
     background-color: #B61C3E;
