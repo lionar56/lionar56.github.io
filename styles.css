@@ -92,8 +92,8 @@ div#d4 {
 div#d5 {
   grid-column-start: 1;
   grid-column-end: 3;
-  padding-left: 37%;
   padding-bottom: 5vh;
+  text-align: center;
 }
 div#weiss {
   background: white;
@@ -352,7 +352,6 @@ summary::-webkit-details-marker {
   div#Auswertung {
     margin-top: 5vh;
     color: black;
-    margin-top: 5vh;
   }
   div#d1 {
     text-align: center;
@@ -385,6 +384,7 @@ summary::-webkit-details-marker {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   div#weiss {
     background: white;
