@@ -211,7 +211,7 @@ function generate() {
 
         //Wichtigkeit
         var wichtig = $("<div id='d1a'></div>");
-        wichtig.append($("<h2>Ist Dir die Aussage besonders wichtig ?</h2 >"))
+        wichtig.append($("<h2>Ist Dir die Aussage besonders wichtig?</h2 >"))
 
         var boxen = $("<div id='d4'></div>")
         boxen.append($("<label class='antworten'>\
