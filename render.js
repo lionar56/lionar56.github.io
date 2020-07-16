@@ -132,7 +132,7 @@ wahlomat = function () {
         } else if (Prz >= 80) {
             Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön, Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne.</h3></div>`;
         } else if (Prz >= 60) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Positionen enstprechen zu ${Prz}% denen der SPD in Herne. Schau Dir doch mal unser Wahlprogramm an, vielleicht können wir Dich ja noch mit einigen weiteren Punkten überzeugen. </h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Schau Dir doch mal unser Wahlprogramm an, vielleicht können wir Dich ja noch mit einigen weiteren Punkten überzeugen. </h3></div>`;
         } else if (Prz >= 40) {
             Aussage.innerHTML = `<div id='weiss'><h3> Da müssen wir wohl noch einige Überzeugungsarbeit bei Dir leisten. Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Schreib uns doch, was wir in Deinen Augen besser machen könnten. </h3></div>`;
         } else if (Prz > 0) {
