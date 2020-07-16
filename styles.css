@@ -350,6 +350,7 @@ summary::-webkit-details-marker {
     font-size: 25;
     font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
+    padding-top: 0vh;
   }
   .aussage {
     color: #E3000F;
