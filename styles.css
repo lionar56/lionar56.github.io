@@ -456,12 +456,12 @@ summary::-webkit-details-marker {
     font-size: 15;
     width: 23vw;
     height: 7vh;
+    margin-top: 1vh;
   }
   .half1{
     text-align: center;
     grid-column: 1;
     grid-row: 1;
-    background-color: lawngreen;
   }
   .half2{
     text-align: center;
