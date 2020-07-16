@@ -347,10 +347,11 @@ summary::-webkit-details-marker {
   }
   h3 {
     color: #E3000F;
-    font-size: 25;
+    font-size: 20;
     font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 0vh;
+    padding-bottom: 0vh;
   }
   .aussage {
     color: #E3000F;
