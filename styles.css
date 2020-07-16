@@ -75,10 +75,8 @@ div#d1a {
   text-align: center;
 }
 div#d2 {
-  align-content: center;
-  display: flex;
-  align-items: center;
-  padding-left: 30%;
+  text-align: center;
+  margin-top: 10vh;
 }
 div#d3 {
   display: flex;
@@ -377,6 +375,7 @@ summary::-webkit-details-marker {
   div#d2 {
     grid-row: 2;
     text-align: center;
+    margin-top: 0;
   }
   div#d3 {
     grid-row-start: 3;
