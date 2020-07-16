@@ -105,7 +105,15 @@ div#weiss {
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
 }
-.half{
+.half1{
+  text-align: center;
+  grid-row: 1;
+}
+.half2{
+  text-align: center;
+  grid-row: 1;
+}
+.half3{
   text-align: center;
   grid-row: 1;
 }
@@ -397,10 +405,10 @@ summary::-webkit-details-marker {
   .knoepfe{
     margin-left: 3vw;
     margin-right: 3vw;
-    margin-top: 5vh;
     grid-row: 3;
     display: grid;
     grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
   }
   .header{
     background-color: #E3000F;
@@ -448,11 +456,22 @@ summary::-webkit-details-marker {
     font-size: 15;
     width: 23vw;
     height: 7vh;
-    display: block;
   }
-  .half{
+  .half1{
     text-align: center;
     grid-column: 1;
+    grid-row: 1;
+    background-color: lawngreen;
+  }
+  .half2{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .half3{
+    text-align: center;
+    grid-column: 1;
+    grid-row:3;
   }
   button:hover {
     background-color: #B61C3E;
