@@ -238,7 +238,7 @@ var aussagen = [
         erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
     },
     {
-        aussage: "Das Einschulungsalter sollte flexibler geregelt werden können.",
+        aussage: "Lokale Erinnerungspolitische Initiativen, die politisch-historische Bildungsarbeit zum Nationalsozialismus leisten, sollten unterstützt werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter'
