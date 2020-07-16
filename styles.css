@@ -400,6 +400,7 @@ summary::-webkit-details-marker {
     margin-left: 2vw;
     margin-right: 2vw;
     padding-bottom: 1vh;
+    padding-top: 0.5vh;
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
     0 10px 30px 0 rgba(0, 0, 0, 0.19);
   }
