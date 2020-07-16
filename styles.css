@@ -312,7 +312,7 @@ summary::-webkit-details-marker {
   .wrapper2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 15% 50% 35%;
+    grid-template-rows: 20% 50% 30%;
   }
   body {
     background-color: #eeeeee;
@@ -424,12 +424,13 @@ summary::-webkit-details-marker {
     font-family: Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
+    padding-bottom: 2vh;
   }
   p#p1{
     font-size: 23;
     font-weight: bold;
     text-align: center;
-    margin-top: -2;
+    margin-top: 0;
   }
   p#p2{
     font-size: 18;
@@ -437,7 +438,7 @@ summary::-webkit-details-marker {
     margin-top: -15;
     padding-left: 5vw;
     padding-right: 5vw;
-    margin-bottom: 2;
+    margin-bottom: 5;
   }
   button {
     padding: 16px 32px;
