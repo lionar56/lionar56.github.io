@@ -314,7 +314,7 @@ summary::-webkit-details-marker {
   .wrapper2 {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 25vh 40vh 35vh;
+    grid-template-rows: 15% 50% 35%;
   }
   body {
     background-color: #eeeeee;
@@ -425,14 +425,14 @@ summary::-webkit-details-marker {
     grid-template-columns: 100%;
   }
   p#p1{
-    font-size: 25;
+    font-size: 23;
     font-weight: bold;
     text-align: center;
   }
   p#p2{
-    font-size: 20;
+    font-size: 18;
     text-align: center;
-    margin-top: 0.5vh ;
+    margin-top: 0vh;
     padding-left: 5vw;
     padding-right: 5vw;
   }
