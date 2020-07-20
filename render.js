@@ -232,61 +232,61 @@ function generate() {
 
 var aussagen = [
     {
-        aussage: "Ein Kinderschutzbeauftragter, eine Kinderschutzbeautragte sollte eingesetzt werden.",
+        aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Ulrich Klonki.'
+        erklärtext: '"Hier kommt ein Zitat hin." - Ulrich Klonki'
     },
     {
-        aussage: "Neubauprojekte und Sanierungen sollen klimarelevant durchgeführt werden, z.B. durch Dachbegrünung oder Photovoltaikanlagen.",
+        aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Amelie Menges'
     },
     {
-        aussage: "Die Bildung von Betriebsräten sollte angeregt werden, z.B. durch die Einrichtung des 'Runder Tisch Mitbestimmung'.",
+        aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Patrick Steinbach'
     },
     { 
-        aussage: "Es sollte ein Eltern-/Familienbonusheft eingeführt werden.",
+        aussage: "In Herner Wohnquartieren soll der PkW-Vekehr reduziert weden, zum Beispiel mithilfe von Tempo-30-Zonen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger'
     },
     {
-        aussage: "Lokale Erinnerungspolitische Initiativen, die politisch-historische Bildungsarbeit zum Nationalsozialismus leisten, sollten unterstützt werden.",
+        aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollten unterstützt werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Flemming Menges'
     },
     {
-        aussage: "Familien- und frauenbewusste Politik sollte in kommunalen Unternehmen verankert werden.",
+        aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach'
     },
     {
-        aussage: "In Wohnquartieren sollte der PkW-Vekehr reduziert weden, z.B. durch Schaffung von Tempo 30-Zonen.",
+        aussage: "In Kooperation mit Herner Unternehmen und Einzelhändlern sollen mehr Lademöglichkeiten für E-Fahrzeuge geschaffe werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Jürgen Scharmacher'
     },
     {
-        aussage: "Für den sozialen Wohnungsbau sollten Flächen vorgehalten werden.",
+        aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Elisabeth Majchrzak-Frensel'
     },
     {
-        aussage: "Es sollte mehr Ladeinfrastruktur für E-Fahrzeuge geschaffen werden.",
+        aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Hendrik Bollmann'
     },
     {
-        aussage: "Die interkulturelle Öffnung der Verwaltung und ihrer Tochtergesellschaften sollte weiter vorangetrieben werden.",
+        aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Emek Öner'
