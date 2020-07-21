@@ -128,7 +128,7 @@ wahlomat = function () {
         Prz = Math.round(Prz * 100) / 100;
 
         if (Prz == 100) {
-            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.mitgliedwerden.spd.de/eintritt'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3></div>";
+            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.mitgliedwerden.spd.de/eintritt' class='link'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3></div>";
         } else if (Prz >= 80) {
             Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3></div>`;
         } else if (Prz >= 60) {
