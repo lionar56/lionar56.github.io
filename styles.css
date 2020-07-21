@@ -536,6 +536,12 @@ summary::-webkit-details-marker {
     text-decoration: none;
     color: #00b4cc;
   }
+  .link {
+    cursor: pointer;
+  }
+  .link :hover{
+    text-decoration: underline;
+  }
   details {
     margin-bottom: 3vh;
   }
