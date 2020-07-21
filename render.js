@@ -128,17 +128,17 @@ wahlomat = function () {
         Prz = Math.round(Prz * 100) / 100;
 
         if (Prz == 100) {
-            Aussage.innerHTML = "<div id='weiss'><h3> Wow. Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Positionen entsprechen zu 100% denen der SPD in Herne. </h3></div>";
+            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.mitgliedwerden.spd.de/eintritt'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3></div>";
         } else if (Prz >= 80) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön, Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne.</h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3></div>`;
         } else if (Prz >= 60) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Schau Dir doch mal unser Wahlprogramm an, vielleicht können wir Dich ja noch mit einigen weiteren Punkten überzeugen. </h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau Dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir Dich noch mit einigen weiteren Punkten überzeugen. </h3></div>`;
         } else if (Prz >= 40) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Da müssen wir wohl noch einige Überzeugungsarbeit bei Dir leisten. Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Schreib uns doch, was wir in Deinen Augen besser machen könnten. </h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir Dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir Deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3></div>`;
         } else if (Prz > 0) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Deine Positionen entsprechen zu ${Prz}% denen der SPD in Herne. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen könnten. </h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3></div>`;
         } else {
-            Aussage.innerHTML = "<div id='weiss'><h3> Bist Du Dir sicher, dass Du hier richtig bist? Deine Positionen entsprechen zu 0% denen der SPD in Herne.</h3></div>";
+            Aussage.innerHTML = "<div id='weiss'><h3> Bist Du Dir sicher, dass Du hier richtig bist? Deine Antworten entsprechen zu 0 Prozent den Positionen der Hernre SPD.</h3></div>";
         }
     } else {
         Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3></div>";
