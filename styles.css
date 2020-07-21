@@ -231,9 +231,6 @@ a {
   text-decoration: none;
   color: #00b4cc;
 }
-a:hover{
-  text-decoration: underline;
-}
 details {
   margin-bottom: 3vh;
 }
@@ -539,9 +536,6 @@ summary::-webkit-details-marker {
     text-decoration: none;
     color: #00b4cc;
   }
-  a:hover{
-    text-decoration: underline;
-  } 
   details {
     margin-bottom: 3vh;
   }
