@@ -256,7 +256,7 @@ var aussagen = [
         erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger'
     },
     {
-        aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollten unterstützt werden.",
+        aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollen unterstützt werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Flemming Menges'
@@ -268,7 +268,7 @@ var aussagen = [
         erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach'
     },
     {
-        aussage: "In Kooperation mit Herner Unternehmen und Einzelhändlern sollen mehr Lademöglichkeiten für E-Fahrzeuge geschaffe werden.",
+        aussage: "In Kooperation mit Herner Unternehmen und Einzelhändlern sollen mehr Lademöglichkeiten für E-Fahrzeuge geschaffen werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Jürgen Scharmacher'
