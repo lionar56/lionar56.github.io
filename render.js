@@ -235,25 +235,25 @@ var aussagen = [
         aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Ulrich Klonki'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Ulrich Klonki
     },
     {
         aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Amelie Menges'
+        erklärtext: '"Hier kommt ein Zitat hin." - Amelie Menges' //Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
     },
     {
         aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Patrick Steinbach'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Patrick Steinbach
     },
     { 
         aussage: "In Herner Wohnquartieren soll der Pkw-Verkehr reduziert werden, zum Beispiel mithilfe von Tempo-30-Zonen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Theres Boneberger
     },
     {
         aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollen unterstützt werden.",
@@ -265,7 +265,7 @@ var aussagen = [
         aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Julia Steinbach
     },
     {
         aussage: "In Kooperation mit Herner Unternehmen und Einzelhändlern sollen mehr Lademöglichkeiten für E-Fahrzeuge geschaffen werden.",
@@ -277,7 +277,7 @@ var aussagen = [
         aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Elisabeth Majchrzak-Frensel'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Elisabeth Majchrzak-Frensel
     },
     {
         aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
@@ -289,6 +289,6 @@ var aussagen = [
         aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Emek Öner'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Emek Öner
     },
 ]
