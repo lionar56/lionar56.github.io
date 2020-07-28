@@ -235,7 +235,7 @@ var aussagen = [
         aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Ulrich Klonki
+        erklärtext: '"Wir brauchen einen Kinderschutzbeauftragten, der sich unabhängig von allen Institutionenum die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki' 
     },
     {
         aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
@@ -268,7 +268,7 @@ var aussagen = [
         erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Julia Steinbach
     },
     {
-        aussage: "In Kooperation mit Herner Unternehmen und Einzelhändlern sollen mehr Lademöglichkeiten für E-Fahrzeuge geschaffen werden.",
+        aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
         bild_src: "hans.jpg",
         bild_alt: "Hans",
         erklärtext: '"Hier kommt ein Zitat hin." - Jürgen Scharmacher'
