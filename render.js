@@ -176,7 +176,7 @@ function generate() {
         var spddazu = $("<details></details>")
         spddazu.append($("<summary>Das sagt die SPD Herne dazu:  </summary>"));
 
-        var container = $("<div class='container'></div>");
+        var container = $("<div onclick='' class='container'></div>");
         container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>");
         container.append("<div class='bottom'>Klick hier.</div >");
 
