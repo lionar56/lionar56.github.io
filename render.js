@@ -271,13 +271,13 @@ var aussagen = [
         aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
         bild_src: "Jürgen.png",
         bild_alt: "Jürgen Scharmacher",
-        erklärtext: '"Hier kommt ein Zitat hin." - Jürgen Scharmacher, Ratskandidat'
+        erklärtext: '"Mobilstationen dienen als sichtbare Verknüpfungspunkte zur Vernetzung mehrerer Verkehrsmittel in direkter räumlicher Verbindung. Ziel ist die Verbindung verschiedener Verkehrsmittel an dafür erkennbaren Punkten. Mobilstationen beinhalten darüber hinaus weitere Serviceangebote wie eine gute Aufenthaltsqualität, um klimafreundliche Mobilitätsangebote für die Bürgerinnen und Bürger attraktiv zu gestalten." - Jürgen Scharmacher, Ratskandidat'
     },
     {
         aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
         bild_src: "Elisabeth.png",
         bild_alt: "Elisabeth Majchrzak-Frensel",
-        erklärtext: '"Hier kommt ein Zitat hin." - Elisabeth Majchrzak-Frensel, Ratskandidatin'
+        erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel, Ratskandidatin'
     },
     {
         aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
