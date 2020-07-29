@@ -241,7 +241,7 @@ var aussagen = [
         aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
         bild_src: "Amelie.png",
         bild_alt: "Amelie Menges",
-        erklärtext: '"Hier kommt ein Zitat hin." - Amelie Menges, Kandidatin für den Bezirk Herne-Mitte' //Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
+        erklärtext: '"Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man neue und innovative Ideen für die Schaffung und Haltung von Wohnraum entwickelt, die auch den Umweltschutz bedenken. Das Herner Klimafolgenanpassungskonzept bietet dabei bereits einige gute Anhaltspunkte." - Amelie Menges, Kandidatin für den Bezirk Herne-Mitte' //" So wird das Stadtklima verbessert und  dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
     },
     {
         aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
@@ -277,7 +277,7 @@ var aussagen = [
         aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
         bild_src: "Elisabeth.png",
         bild_alt: "Elisabeth Majchrzak-Frensel",
-        erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel, Ratskandidatin'
+        erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden, sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel, Ratskandidatin'
     },
     {
         aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
