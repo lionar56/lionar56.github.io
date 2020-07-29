@@ -235,7 +235,7 @@ var aussagen = [
         aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
         bild_src: "Ulrich.png",
         bild_alt: "Ulrich Klonki",
-        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionenum um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki, Ratskandidat' 
+        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki, Ratskandidat' 
     },
     {
         aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
