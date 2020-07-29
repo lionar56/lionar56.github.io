@@ -233,62 +233,62 @@ function generate() {
 var aussagen = [
     {
         aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Wir brauchen einen Kinderschutzbeauftragten, der sich unabhängig von allen Institutionenum die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki' 
+        bild_src: "Ulrich.png",
+        bild_alt: "Ulrich Klonki",
+        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionenum um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki, Ratskandidat' 
     },
     {
         aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Amelie Menges' //Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
+        bild_src: "Amelie.png",
+        bild_alt: "Amelie Menges",
+        erklärtext: '"Hier kommt ein Zitat hin." - Amelie Menges, Kandidatin für den Bezirk Herne-Mitte' //Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
     },
     {
         aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Patrick Steinbach
+        bild_src: "Patrick.png",
+        bild_alt: "Patrick Steinbach",
+        erklärtext: '"Hier kommt ein Zitat hin." - Patrick Steinbach, Ratskandidat' 
     },
     { 
         aussage: "In Herner Wohnquartieren soll der Pkw-Verkehr reduziert werden, zum Beispiel mithilfe von Tempo-30-Zonen.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Theres Boneberger
+        bild_src: "Theres.png",
+        bild_alt: "Theres Boneberger",
+        erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger, Ratskandidatin' 
     },
     {
         aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollen unterstützt werden.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Flemming Menges'
+        bild_src: "Flemming.png",
+        bild_alt: "Flemming Menges",
+        erklärtext: '"Hier kommt ein Zitat hin." - Flemming Menges, Kandidat für den Bezirk Sodingen'
     },
     {
         aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Julia Steinbach
+        bild_src: "Julia.JPG",
+        bild_alt: "Julia Steinbach",
+        erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach, Ratskandidatin' 
     },
     {
         aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Jürgen Scharmacher'
+        bild_src: "Jürgen.png",
+        bild_alt: "Jürgen Scharmacher",
+        erklärtext: '"Hier kommt ein Zitat hin." - Jürgen Scharmacher, Ratskandidat'
     },
     {
         aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Elisabeth Majchrzak-Frensel
+        bild_src: "Elisabeth.png",
+        bild_alt: "Elisabeth Majchrzak-Frensel",
+        erklärtext: '"Hier kommt ein Zitat hin." - Elisabeth Majchrzak-Frensel, Ratskandidatin'
     },
     {
         aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hendrik Bollmann'
+        bild_src: "Hendrik.png",
+        bild_alt: "Hendrik Bollmann",
+        erklärtext: '"Hier kommt ein Zitat hin." - Hendrik Bollmann, Ratskandidat'
     },
     {
         aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
-        bild_src: "hans.jpg",
-        bild_alt: "Hans",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hans Peter' //Emek Öner
+        bild_src: "Emek.png",
+        bild_alt: "Emek Öner",
+        erklärtext: '"Hier kommt ein Zitat hin." - Emek Öner, Kandidatin für den Integrationsrat'
     },
 ]
