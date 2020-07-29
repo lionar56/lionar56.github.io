@@ -181,7 +181,7 @@ function generate() {
         container.append("<div class='bottom'>Klick hier.</div >");
 
         var overlay = $("<div class='overlay'></div >");
-        overlay.append("<div div class='text'>" + aussage.erklärtext + "</div>");
+        overlay.append("<div class='text'>" + aussage.erklärtext + "</div>");
 
         container.append(overlay);
         spddazu.append(container);
