@@ -22,7 +22,7 @@ img {
   width: 55%;
   margin-left: 5vw;
   margin-bottom:0vh;
-  background-color: #E3000F;
+  background-color: rgb(227, 0, 15);
 }
 img#logo2{
   display: block; 
@@ -35,18 +35,18 @@ img#logo2{
   width: 100%; 
 }
 h1 {
-  color: #E3000F;
+  color: rgb(227, 0, 15);
   font-size: 45;
   font-family: Calibri, Helvetica, sans-serif;
   font-weight: bold;
 }
 h2 {
-  color: #E3000F;
+  color: rgb(227, 0, 15);
   font-size: 30;
   font-family: Calibri, Helvetica, sans-serif;
 }
 h3 {
-  color: #e3000F;
+  color: rgb(227, 0, 15);
   font-size: 25;
   font-family: Calibri, Helvetica, sans-serif;
   font-weight: bold;
@@ -57,7 +57,7 @@ h3 {
   padding-bottom: 2vh;
 }
 .aussage {
-  color: #E3000F;
+  color: rgb(227, 0, 15);
   font-size: 30;
   padding-left: 10%;
   padding-right: 10%;
@@ -128,7 +128,7 @@ div#weiss {
   grid-template-rows: 50% 50%;
 }
 .header{
-  background-color: #E3000F;
+  background-color: rgb(227, 0, 15);
   color: white;
   font-family: Calibri, Helvetica, sans-serif;
   display: grid;
@@ -136,7 +136,7 @@ div#weiss {
   cursor: default;
 }
 .header2{
-  background-color: #E3000F;
+  background-color: rgb(227, 0, 15);
   color: white;
   font-family: Calibri, Helvetica, sans-serif;
   display: grid;
@@ -164,9 +164,9 @@ button {
   font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: #E3000F;
+  background-color: rgb(227, 0, 15);
   color: white;
-  border: 5px solid #E3000F;
+  border: 5px solid rgb(227, 0, 15);
   margin-top: 7%;
   border-radius: 0%;
 }
@@ -244,13 +244,13 @@ details > summary {
   font-family: Calibri, Helvetica, sans-serif;
   cursor: pointer;
   margin-bottom: 1vh;
-  text-decoration: underline #E3000F;
+  text-decoration: underline rgb(227, 0, 15);
 }
 details[open]>summary{
   text-decoration: none;
 }
 summary::-webkit-details-marker {
-  color: #E3000F;
+  color: rgb(227, 0, 15);
 }
 .container {
   position: relative;
@@ -304,7 +304,7 @@ summary::-webkit-details-marker {
   left: 45%;
   font-size: 20;
   font-family: Calibri, Helvetica, sans-serif;
-  color: #E3000F;
+  color: rgb(227, 0, 15);
   font-weight: bold;
 }
 
@@ -341,18 +341,18 @@ summary::-webkit-details-marker {
     margin-right: 40%;
   }
   h1 {
-    color: #E3000F;
+    color: rgb(227, 0, 15);
     font-size: 30;
     font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
   }
   h2 {
-    color: #E3000F;
+    color: rgb(227, 0, 15);
     font-size: 20;
     font-family: Calibri, Helvetica, sans-serif;
   }
   h3 {
-    color: #E3000F;
+    color: rgb(227, 0, 15);
     font-size: 22;
     font-family: Calibri, Helvetica, sans-serif;
     font-weight: bold;
@@ -360,7 +360,7 @@ summary::-webkit-details-marker {
     padding-bottom: 0vh;
   }
   .aussage {
-    color: #E3000F;
+    color: rgb(227, 0, 15);
     font-size: 20;
     padding-left: 7%;
     padding-right: 7%;
@@ -420,14 +420,14 @@ summary::-webkit-details-marker {
     grid-template-columns: auto;
   }
   .header{
-    background-color: #E3000F;
+    background-color: rgb(227, 0, 15);
     color: white;
     font-family: Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
   }
   .header2{
-    background-color: #E3000F;
+    background-color: rgb(227, 0, 15);
     color: white;
     font-family: Calibri, Helvetica, sans-serif;
     display: grid;
@@ -457,9 +457,9 @@ summary::-webkit-details-marker {
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #E3000F;
+    background-color: rgb(227, 0, 15);
     color: white;
-    border: 5px solid #E3000F;
+    border: 5px solid rgb(227, 0, 15);
     margin-top: 7%;
   }
 
