@@ -234,60 +234,60 @@ var aussagen = [
         aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
         bild_src: "Ulrich.png",
         bild_alt: "Ulrich Klonki",
-        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki, Ratskandidat' 
+        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki' 
     },
     {
         aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
         bild_src: "Amelie.png",
         bild_alt: "Amelie Menges",
-        erklärtext: '"Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man neue und innovative Ideen für die Schaffung und Haltung von Wohnraum entwickelt, die auch den Umweltschutz bedenken. Das Herner Klimafolgenanpassungskonzept bietet dabei bereits einige gute Anhaltspunkte." - Amelie Menges, Kandidatin für den Bezirk Herne-Mitte' //" So wird das Stadtklima verbessert und  dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
+        erklärtext: '"Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man neue und innovative Ideen für die Schaffung und Haltung von Wohnraum entwickelt, die auch den Umweltschutz bedenken. Das Herner Klimafolgenanpassungskonzept bietet dabei bereits einige gute Anhaltspunkte." - Amelie Menges' //" So wird das Stadtklima verbessert und  dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
     },
     {
         aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
         bild_src: "Patrick.png",
         bild_alt: "Patrick Steinbach",
-        erklärtext: '"Hier kommt ein Zitat hin." - Patrick Steinbach, Ratskandidat' 
+        erklärtext: '"Hier kommt ein Zitat hin." - Patrick Steinbach' 
     },
     { 
         aussage: "In Herner Wohnquartieren soll der Pkw-Verkehr reduziert werden, zum Beispiel mithilfe von Tempo-30-Zonen.",
         bild_src: "Theres.png",
         bild_alt: "Theres Boneberger",
-        erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger, Ratskandidatin' 
+        erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger' 
     },
     {
         aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollen unterstützt werden.",
         bild_src: "Flemming.png",
         bild_alt: "Flemming Menges",
-        erklärtext: '"Hier kommt ein Zitat hin." - Flemming Menges, Kandidat für den Bezirk Sodingen'
+        erklärtext: '"Die wiederholte Beschädigung des Shoah-Mahnmales in Herne macht deutlich, dass es weiterhin wichtig bleibt, gerade auch lokal Aufklärungsarbeit über den Nationalsozialismus zu leisten." - Flemming Menges'
     },
     {
         aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
-        bild_src: "Julia.jpg",
+        bild_src: "Julia.png",
         bild_alt: "Julia Steinbach",
-        erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach, Ratskandidatin' 
+        erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach' 
     },
     {
         aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
         bild_src: "Jürgen.png",
         bild_alt: "Jürgen Scharmacher",
-        erklärtext: '"Mobilstationen dienen als sichtbare Verknüpfungspunkte zur Vernetzung mehrerer Verkehrsmittel in direkter räumlicher Verbindung. Ziel ist die Verbindung verschiedener Verkehrsmittel an dafür erkennbaren Punkten. Mobilstationen beinhalten darüber hinaus weitere Serviceangebote wie eine gute Aufenthaltsqualität, um klimafreundliche Mobilitätsangebote für die Bürgerinnen und Bürger attraktiv zu gestalten." - Jürgen Scharmacher, Ratskandidat'
+        erklärtext: '"Mobilstationen dienen als sichtbare Verknüpfungspunkte zur Vernetzung mehrerer Verkehrsmittel in direkter räumlicher Verbindung. Ziel ist die Verbindung verschiedener Verkehrsmittel an dafür erkennbaren Punkten. Mobilstationen beinhalten darüber hinaus weitere Serviceangebote wie eine gute Aufenthaltsqualität, um klimafreundliche Mobilitätsangebote für die Bürgerinnen und Bürger attraktiv zu gestalten." - Jürgen Scharmacher'
     },
     {
         aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
         bild_src: "Elisabeth.png",
         bild_alt: "Elisabeth Majchrzak-Frensel",
-        erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden, sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel, Ratskandidatin'
+        erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden, sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel'
     },
     {
         aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
         bild_src: "Hendrik.png",
         bild_alt: "Hendrik Bollmann",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hendrik Bollmann, Ratskandidat'
+        erklärtext: '"Hier kommt ein Zitat hin." - Hendrik Bollmann'
     },
     {
         aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
         bild_src: "Emek.png",
         bild_alt: "Emek Öner",
-        erklärtext: '"Hier kommt ein Zitat hin." - Emek Öner, Kandidatin für den Integrationsrat'
+        erklärtext: '"Hier kommt ein Zitat hin." - Emek Öner'
     },
 ]
