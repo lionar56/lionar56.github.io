@@ -177,8 +177,7 @@ function generate() {
         spddazu.append($("<summary>Das sagt die SPD Herne dazu:  </summary>"));
 
         var container = $("<div onclick='' class='container'></div>");
-        container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>");
-        container.append("<div class='bottom'>Klick hier.</div >");
+        container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>")
 
         var overlay = $("<div class='overlay'></div >");
         overlay.append("<div class='text'>" + aussage.erklärtext + "</div>");
@@ -263,7 +262,7 @@ var aussagen = [
     },
     {
         aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
-        bild_src: "Julia.JPG",
+        bild_src: "Julia.jpg",
         bild_alt: "Julia Steinbach",
         erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach, Ratskandidatin' 
     },
