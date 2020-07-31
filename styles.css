@@ -106,6 +106,9 @@ div#weiss {
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
   cursor: default;
 }
+.text{
+  overflow: scroll;
+}
 .half1{
   text-align: center;
   grid-row: 1;
