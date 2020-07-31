@@ -106,9 +106,6 @@ div#weiss {
   0 10px 30px 0 rgba(0, 0, 0, 0.19);
   cursor: default;
 }
-.text{
-  overflow: scroll;
-}
 .half1{
   text-align: center;
   grid-row: 1;
@@ -300,6 +297,19 @@ summary::-webkit-details-marker {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   font-family: Calibri, Helvetica, sans-serif;
+}
+.text2{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: Calibri, Helvetica, sans-serif;
+  overflow-y: scroll;
 }
 .bottom {
   position: absolute;
