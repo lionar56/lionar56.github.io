@@ -246,7 +246,7 @@ var aussagen = [
         aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
         bild_src: "Patrick.png",
         bild_alt: "Patrick Steinbach",
-        erklärtext: '"Hier kommt ein Zitat hin." - Patrick Steinbach' 
+        erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach' 
     },
     { 
         aussage: "In Herner Wohnquartieren soll der Pkw-Verkehr reduziert werden, zum Beispiel mithilfe von Tempo-30-Zonen.",
@@ -264,7 +264,7 @@ var aussagen = [
         aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
         bild_src: "Julia.png",
         bild_alt: "Julia Steinbach",
-        erklärtext: '"Hier kommt ein Zitat hin." - Julia Steinbach' 
+        erklärtext: '"Familien- und Frauenbewusste Personalpolitik ist für die Arbeitgeber ein wichtiger Standortfaktor. Für viele neue Mitarbeiter ist es ein entscheidendes Entscheidungskriterium ob eine neue Stelle angenommen wird. Für Mütter -besonders zu Corona Zeiten- ist es sehr wichtig flexibel zu sein. Gleitende Arbeitszeiten und Homeoffice ist heutzutage nicht nur Zukunftsmusik, sondern Voraussetzung wenn man als Mutter oder gar als Alleinerziehende beruflich tätig sein will. Ein Großteil von Frauen arbeiten in systemrelevanten Berufen wie zum Beispiel in der Pflege oder im Einzelhandel. Jeder weiß um welche Arbeitszeiten es sich bei diesen Berufsbildern handelt. Gerade hier ist es mehr als erforderlich die Kinderbetreuung auszuweiten. Mütter müssen die Möglichkeit haben ihre Kinder flexibel betreuen zu lassen! Nur von 7:30h bis 16:00h Betreuungszeit -ggf. längerer Anfahrtsweg zum Arbeitsort berücksichtigt-sind überhaupt nicht ausreichend! Betriebseigene Kindergärten und Ausweitung des Betreuungsangebotes (6:00h bis 18:00h ggf. als Stempelsystem) sind unerlässlich damit Mütter überhaupt einer Beschäftigung über Teilzeitniveau nachgehen können. Ferner brauchen wir mehr Frauen in Führungspositionen! Häufig mangelt es nicht an Bewerberinnen, sondern scheitert an der Unterdrückung der Männer! Das typische Frauenbild, die Frau die sich um Haushalt und Kinderbetreuung kümmert, muss endlich aus den Köpfen der Männer verschwinden!" - Julia Steinbach' 
     },
     {
         aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
