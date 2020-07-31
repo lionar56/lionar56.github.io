@@ -179,8 +179,15 @@ function generate() {
         var container = $("<div onclick='' class='container'></div>");
         container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>")
 
+        var l=aussage.erklärtext.length;
+
         var overlay = $("<div class='overlay'></div >");
-        overlay.append("<div class='text'>" + aussage.erklärtext + "</div>");
+        if (l<525){
+            overlay.append("<div class='text'>" + aussage.erklärtext + "</div>");
+        }
+        else{
+            overlay.append("<div class='text2'>" + aussage.erklärtext + "</div>");
+        }
 
         container.append(overlay);
         spddazu.append(container);
