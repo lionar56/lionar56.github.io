@@ -320,6 +320,23 @@ summary::-webkit-details-marker {
   color: rgb(227, 0, 15);
   font-weight: bold;
 }
+div::-webkit-scrollbar {
+  width: 10px;
+}
+
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 #ccc; 
+  border-radius: 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #E3000F; 
+  border-radius: 5px;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+  background: #B61C3E; 
+}
 
 @media (max-width: 600px) {
   html {
