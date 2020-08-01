@@ -585,6 +585,7 @@ div::-webkit-scrollbar-thumb:hover {
     font-family: Calibri, Helvetica, sans-serif;
     cursor: pointer;
     margin-bottom: 1vh;
+    width: 90%;
   }
   .container {
     position: relative;
