@@ -239,18 +239,21 @@ details {
   margin-bottom: 3vh;
 }
 details > summary {
-  color: black;
+  color: white;
+  background-color: #E3000F;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
   font-size: 20;
   font-family: Calibri, Helvetica, sans-serif;
   cursor: pointer;
+  margin: auto;
   margin-bottom: 1vh;
-  text-decoration: underline rgb(227, 0, 15);
+  padding: auto;
+  width: 27%;
+  text-align: center;
 }
-details[open]>summary{
-  text-decoration: none;
-}
-summary::-webkit-details-marker {
-  color: rgb(227, 0, 15);
+summary:hover{
+  background-color: #B61C3E;
 }
 .container {
   position: relative;
@@ -576,7 +579,8 @@ div::-webkit-scrollbar-thumb:hover {
     margin-bottom: 3vh;
   }
   details > summary {
-    color: black;
+    color: white;
+    background-color: #E3000F;
     font-size: 20;
     font-family: Calibri, Helvetica, sans-serif;
     cursor: pointer;
