@@ -295,6 +295,6 @@ var aussagen = [
         aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
         bild_src: "Emek.png",
         bild_alt: "Emek Öner",
-        erklärtext: '"Hier kommt ein Zitat hin." - Emek Öner'
+        erklärtext: '"Migration ist auch mit Teilhabe und Partizipation aller verbunden, wir dürfen keine Unterschiede machen und müssen jedem - unabhängig von Nationalität, Herkunft und Identität - eine Möglichkeit geben, um teilzuhaben! - Emek Öner'
     },
 ]
