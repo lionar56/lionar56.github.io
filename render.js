@@ -256,10 +256,10 @@ var aussagen = [
         erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach' 
     },
     { 
-        aussage: "In Herner Wohnquartieren soll der Pkw-Verkehr reduziert werden, zum Beispiel mithilfe von Tempo-30-Zonen.",
+        aussage: "An Herner Schulen sollen Elternhaltestellen eingerichtet werden.",
         bild_src: "Theres.png",
         bild_alt: "Theres Boneberger",
-        erklärtext: '"Hier kommt ein Zitat hin." - Theres Boneberger' 
+        erklärtext: '"Kinder sollen ihren Schulweg möglichst selbständig, aber sicher bewältigen können. Wenn es doch das Auto sein muss, sind Elternhaltestellen eine sinnvolle Maßnahme, um Verkehrschaos vor den Schulen zu verhindern." - Theres Boneberger' 
     },
     {
         aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollen unterstützt werden.",
