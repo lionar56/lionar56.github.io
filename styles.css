@@ -661,4 +661,12 @@ footer>a{
     color: #E3000F;
     font-weight: bold;
   }
+  .f1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 1%;
+  }
+  .f2{
+    margin-top: 4%;
+  }
 }
