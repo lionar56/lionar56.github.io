@@ -2,9 +2,10 @@ html {
   margin: 0;
 }
 .wrapper {
+  height: 100vh;
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-template-rows: 50% ; 
+  grid-template-rows: 40% 50% 10%; 
 }
 .wrapper2 {
   display: grid;
