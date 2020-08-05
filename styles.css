@@ -340,6 +340,25 @@ div::-webkit-scrollbar-thumb {
 div::-webkit-scrollbar-thumb:hover {
   background: #B61C3E; 
 }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #E3000F;
+  color: white;
+}
+footer>a{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+.f1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: 1.7%;
+}
+.f2{
+  margin-top: 2%;
+}
 
 @media (max-width: 600px) {
   html {
