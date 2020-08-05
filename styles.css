@@ -372,6 +372,7 @@ footer>a{
     grid-template-rows: 30vh 30vh 30vh 10vh;
   }
   .wrapper2 {
+    height: 95vh;
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: 20% 50% 30%;
@@ -669,6 +670,6 @@ footer>a{
     margin-top: 1.5%;
   }
   .f2{
-    margin-top: 4%;
+    margin-top: 10%;
   }
 }
