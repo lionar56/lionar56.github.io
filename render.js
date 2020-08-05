@@ -287,9 +287,9 @@ var aussagen = [
     },
     {
         aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
-        bild_src: "Hendrik.png",
-        bild_alt: "Hendrik Bollmann",
-        erklärtext: '"Hier kommt ein Zitat hin." - Hendrik Bollmann'
+        bild_src: "Artur.png",
+        bild_alt: "Artur Kunz",
+        erklärtext: '"Sport ist eine gesunde Freizeitbeschäftigung. Kinder, Jugendliche und Erwachsene sollten zu Sport angeregt, nicht durch unnötige Kosten davon abgehalten werden." - Artur Kunz'
     },
     {
         aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
