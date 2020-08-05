@@ -367,7 +367,7 @@ footer>a{
     margin: 0;
   }
   .wrapper {
-    height: 100vh
+    height: 100vh;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 25vh 20vh 40vh 5vh;
