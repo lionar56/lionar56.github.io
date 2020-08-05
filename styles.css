@@ -370,7 +370,7 @@ footer>a{
     height: 100vh
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30vh 25vh 40vh 5vh;
+    grid-template-rows: 25vh 25vh 40vh 5vh;
   }
   .wrapper2 {
     height: 95vh;
@@ -388,7 +388,7 @@ footer>a{
   .logo{
     width: 55%;
     margin-left: 22.5%;
-    margin-bottom: 5vw;
+    margin-bottom: 2vh;
   }
   img#logo2{
     display: block; 
