@@ -368,7 +368,7 @@ footer>a{
   .wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30vh 30vh 40vh;
+    grid-template-rows: 30vh 30vh 30vh 10vh;
   }
   .wrapper2 {
     display: grid;
@@ -464,7 +464,7 @@ footer>a{
     0 10px 30px 0 rgba(0, 0, 0, 0.19);
   }
   .knoepfe{
-    margin-top: 3vh;
+    margin-top: 7vh;
     margin-left: 2vw;
     margin-right: 2vw;
     grid-row: 3;
