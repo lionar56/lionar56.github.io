@@ -275,7 +275,7 @@ var aussagen = [
     },
     {
         aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
-        bild_src: "Jürgen.png",
+        bild_src: "Jurgen.png",
         bild_alt: "Jürgen Scharmacher",
         erklärtext: '"Mobilstationen dienen als sichtbare Verknüpfungspunkte zur Vernetzung mehrerer Verkehrsmittel in direkter räumlicher Verbindung. Ziel ist die Verbindung verschiedener Verkehrsmittel an dafür erkennbaren Punkten. Mobilstationen beinhalten darüber hinaus weitere Serviceangebote wie eine gute Aufenthaltsqualität, um klimafreundliche Mobilitätsangebote für die Bürgerinnen und Bürger attraktiv zu gestalten." - Jürgen Scharmacher'
     },
