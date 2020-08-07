@@ -49,7 +49,7 @@ h2 {
 }
 h3 {
   color: rgb(227, 0, 15);
-  font-size: 22;
+  font-size: 25;
   font-family: Calibri, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -371,7 +371,7 @@ footer>a{
     height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 27vh 22vh 40vh 5vh;
+    grid-template-rows: 27vh 28vh 40vh 5vh;
   }
   .wrapper2 {
     height: 90vh;
@@ -440,7 +440,7 @@ footer>a{
   div#d2 {
     grid-row: 2;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 2vh;
   }
   div#d3 {
     grid-row-start: 3;
