@@ -10,7 +10,7 @@ html {
 .wrapper2 {
   height: 92vh;
   display: grid;
-  grid-template-rows: 25% 50% 20%; 
+  grid-template-rows: 25% 50% 25%; 
   grid-template-columns: 100%;
 }
 body {
@@ -123,12 +123,13 @@ div#weiss {
 .knoepfe{
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 3vh;
+  margin-top: 6vh;
   grid-row: 3;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 50% 50%;
 }
+
 .header{
   background-color: rgb(227, 0, 15);
   color: white;
