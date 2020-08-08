@@ -359,12 +359,12 @@ footer > a {
   width: 100%;
   z-index: 5;
   top: 40%;
-  background-color: white;
+  background-color: #00b4cc;
   text-align: center;
-  border-width: 2;
-  border-color: #b61c3e;
-  border-style: solid;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: Calibri, Helvetic, sans-serif;
+}
+p > a{
+  color: #e3000f;
 }
 .datschbutton {
   margin-right: 10px;
