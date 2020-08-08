@@ -361,6 +361,10 @@ footer > a {
   top: 40%;
   background-color: white;
   text-align: center;
+  border-width: 2;
+  border-color: #b61c3e;
+  border-style: solid;
+  font-family: Calibri, Helvetica, sans-serif;
 }
 .datschbutton {
   margin-right: 10px;
