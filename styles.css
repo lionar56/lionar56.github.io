@@ -5,12 +5,12 @@ html {
   height: 100vh;
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-template-rows: 40% 50% 10%; 
+  grid-template-rows: 40% 50% 10%;
 }
 .wrapper2 {
   height: 92vh;
   display: grid;
-  grid-template-rows: 25% 50% 25%; 
+  grid-template-rows: 25% 50% 25%;
   grid-template-columns: 100%;
 }
 body {
@@ -20,21 +20,21 @@ body {
 img {
   width: 100%;
 }
-.logo{
+.logo {
   width: 55%;
   margin-left: 5vw;
-  margin-bottom:0vh;
+  margin-bottom: 0vh;
   background-color: rgb(227, 0, 15);
 }
-img#logo2{
-  display: block; 
-  width: 100%; 
-  grid-row-start: 1; 
+img#logo2 {
+  display: block;
+  width: 100%;
+  grid-row-start: 1;
   grid-row-end: 3;
 }
-img#logo2{
-  display: block; 
-  width: 100%; 
+img#logo2 {
+  display: block;
+  width: 100%;
 }
 h1 {
   color: rgb(227, 0, 15);
@@ -105,22 +105,22 @@ div#weiss {
   padding-top: 1vh;
   padding-bottom: 1vh;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
-  0 10px 30px 0 rgba(0, 0, 0, 0.19);
+    0 10px 30px 0 rgba(0, 0, 0, 0.19);
   cursor: default;
 }
-.half1{
+.half1 {
   text-align: center;
   grid-row: 1;
 }
-.half2{
+.half2 {
   text-align: center;
   grid-row: 1;
 }
-.half3{
+.half3 {
   text-align: center;
   grid-row: 1;
 }
-.knoepfe{
+.knoepfe {
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 6vh;
@@ -130,7 +130,7 @@ div#weiss {
   grid-template-rows: 50% 50%;
 }
 
-.header{
+.header {
   background-color: rgb(227, 0, 15);
   color: white;
   font-family: Calibri, Helvetica, sans-serif;
@@ -138,7 +138,7 @@ div#weiss {
   grid-template-columns: 20% 80%;
   cursor: default;
 }
-.header2{
+.header2 {
   background-color: rgb(227, 0, 15);
   color: white;
   font-family: Calibri, Helvetica, sans-serif;
@@ -146,12 +146,12 @@ div#weiss {
   grid-template-columns: 15% 85%;
   cursor: default;
 }
-p#p1{
+p#p1 {
   font-size: 50;
   font-weight: bold;
   text-align: center;
 }
-p#p2{
+p#p2 {
   margin-top: -30;
   font-size: 25;
   text-align: center;
@@ -181,9 +181,9 @@ button {
 }
 
 button:hover {
-  background-color: #B61C3E;
+  background-color: #b61c3e;
   color: white;
-  border-color: #B61C3E;
+  border-color: #b61c3e;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -243,7 +243,7 @@ details {
 }
 details > summary {
   color: white;
-  background-color: #E3000F;
+  background-color: #e3000f;
   border: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
   font-size: 20;
@@ -255,8 +255,8 @@ details > summary {
   width: 27%;
   text-align: center;
 }
-summary:hover{
-  background-color: #B61C3E;
+summary:hover {
+  background-color: #b61c3e;
 }
 .container {
   position: relative;
@@ -304,7 +304,7 @@ summary:hover{
   -ms-transform: translate(-50%, -50%);
   font-family: Calibri, Helvetica, sans-serif;
 }
-.text2{
+.text2 {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -331,35 +331,54 @@ div::-webkit-scrollbar {
 }
 
 div::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 0 #ccc; 
+  box-shadow: inset 0 0 0 #ccc;
   border-radius: 5px;
 }
 
 div::-webkit-scrollbar-thumb {
-  background: #E3000F; 
+  background: #e3000f;
   border-radius: 5px;
 }
 
 div::-webkit-scrollbar-thumb:hover {
-  background: #B61C3E; 
+  background: #b61c3e;
 }
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #E3000F;
+  background-color: #e3000f;
   color: white;
 }
-footer>a{
+footer > a {
   color: white;
   text-decoration: none;
   font-family: Calibri, Helvetica, sans-serif;
 }
-.f1{
+.float-alert {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 40%;
+  background-color: white;
+  text-align: center;
+}
+.datschbutton {
+  margin-right: 10px;
+  font-size: 12;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+#cookie-nein {
+  background-color: gray;
+  border: 5px solid gray;
+}
+.f1 {
   grid-column-start: 1;
   grid-column-end: 3;
   margin-top: 1.7%;
 }
-.f2{
+.f2 {
   margin-top: 2%;
 }
 
@@ -386,14 +405,14 @@ footer>a{
   img {
     width: 100vw;
   }
-  .logo{
+  .logo {
     width: 55%;
     margin-left: 22.5%;
     margin-bottom: 2vh;
   }
-  img#logo2{
-    display: block; 
-    width: 20%; 
+  img#logo2 {
+    display: block;
+    width: 20%;
     margin-left: 40%;
     margin-right: 40%;
   }
@@ -465,9 +484,9 @@ footer>a{
     margin-right: 2vw;
     padding-bottom: 1vh;
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
-    0 10px 30px 0 rgba(0, 0, 0, 0.19);
+      0 10px 30px 0 rgba(0, 0, 0, 0.19);
   }
-  .knoepfe{
+  .knoepfe {
     margin-top: 3vh;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -476,14 +495,14 @@ footer>a{
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
   }
-  .header{
+  .header {
     background-color: rgb(227, 0, 15);
     color: white;
     font-family: Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
   }
-  .header2{
+  .header2 {
     background-color: rgb(227, 0, 15);
     color: white;
     font-family: Calibri, Helvetica, sans-serif;
@@ -491,13 +510,13 @@ footer>a{
     grid-template-columns: 100%;
     padding-bottom: 2vh;
   }
-  p#p1{
+  p#p1 {
     font-size: 23;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
   }
-  p#p2{
+  p#p2 {
     font-size: 18;
     text-align: center;
     margin-top: -15;
@@ -527,24 +546,24 @@ footer>a{
     height: 7vh;
     margin-top: 1vh;
   }
-  .half1{
+  .half1 {
     text-align: center;
     grid-column: 1;
     grid-row: 1;
   }
-  .half2{
+  .half2 {
     text-align: center;
     grid-column: 1;
     grid-row: 2;
   }
-  .half3{
+  .half3 {
     text-align: center;
     grid-column: 1;
-    grid-row:3;
+    grid-row: 3;
   }
   button:hover {
-    background-color: #B61C3E;
-    border-color: #B61C3E;
+    background-color: #b61c3e;
+    border-color: #b61c3e;
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -604,7 +623,7 @@ footer>a{
   }
   details > summary {
     color: white;
-    background-color: #E3000F;
+    background-color: #e3000f;
     font-size: 20;
     font-family: Calibri, Helvetica, sans-serif;
     cursor: pointer;
@@ -663,15 +682,15 @@ footer>a{
     left: 42%;
     font-size: 15;
     font-family: Calibri, Helvetica, sans-serif;
-    color: #E3000F;
+    color: #e3000f;
     font-weight: bold;
   }
-  .f1{
+  .f1 {
     grid-column-start: 1;
     grid-column-end: 3;
     margin-top: 1.5%;
   }
-  .f2{
+  .f2 {
     margin-top: 5vh;
   }
 }

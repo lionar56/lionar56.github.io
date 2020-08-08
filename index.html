@@ -1,102 +1,125 @@
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div id="Start" class="wrapper">
-      <div id="d1">
-        <a name="target2">
-          <h1>
-           Herzlich willkommen zum SPD-O-Mat der SPD Herne!
-          </h1>
-        </a>
-        <h2>
-          Wenn Du bereit bist, klicke auf Start.
-        </h2>
-      </div>
-      <div id="d3">
-        <img
-          src="logo.png" class="logo"
-        />
-      </div>
-      <div id="d2">
-        <a href="#target">
-          <button onclick="show()">
-            START
-          </button>
-        </a>
-      </div>
-      <footer class="f1">
-        <a href="https://spdhernemitte.de/impressum/" target="_blank">Impressum</a> 
-        <a href="https://spdhernemitte.de/datenschutzerklaerung" target="_blank"> Datenschutzerklärung</a>
-      </footer>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <div id="Fragen" style="display: none;" class="wrapper">
-      <a name="target">
-        <div class="header">
-          <p id="p1"> SPD Herne SPD-O-Mat</p>
-          <p id="p2"> Sag uns, wie Du zu den folgenden Aussagen stehst,<br/> und wir sagen Dir, wie viel SPD in Dir steckt.</p>
-          <img src="logo.png" id='logo2'/>
-        </div>
-        <div id="d1a" style="padding-top: 5vh;">
-          <div id="aussagen"></div>
-        </div>
+<body>
+  <div id="Start" class="wrapper">
+    <div id="d1">
+      <a name="target2">
+        <h1>
+          Herzlich willkommen zum SPD-O-Mat der SPD Herne!
+        </h1>
       </a>
-      <div id="d5">
-        <a href="#target1">
-          <button onclick="wahlomat()">
-            Zur Auswertung.
-          </button>
-        </a>
-      </div>
-      <footer>
-        <a href="https://spdhernemitte.de/impressum/" target="_blank">Impressum</a> 
-        <a href="https://spdhernemitte.de/datenschutzerklaerung" target="_blank"> Datenschutzerklärung</a>
-      </footer>
+      <h2>
+        Wenn Du bereit bist, klicke auf Start.
+      </h2>
     </div>
-    <a name="target1" href="#target2">
-      <div id="Ergebnis" style="display: none;">
-        <div class="wrapper2">
-          <div class='header2'>
-            <div>
-              <p id='p1'> SPD Herne SPD-O-Mat </p>
-              <p id='p2'> So viel SPD steckt in Dir...</p>
-            </div>
-            <img src='logo.png' id="logo2"/>
-          </div>
-          <div id="Auswertung">
+    <div id="d3">
+      <img src="logo.png" class="logo" />
+    </div>
+    <div id="d2">
+      <a href="#target">
+        <button onclick="show()">
+          START
+        </button>
+      </a>
+    </div>
+    <footer class="f1">
+      <a href="https://spdhernemitte.de/impressum/" target="_blank">Impressum</a>
+      <a href="https://spdhernemitte.de/datenschutzerklaerung" target="_blank"> Datenschutzerklärung</a>
+    </footer>
+    <div class="float-alert cookie-alert">
+      <p>Wir benutzen auf dieser Seite Cookies, um die Funktionalität zu gewährleisten und eine Statistik über ihre
+        Effektivität aufzustellen. Erfahrung sie mehr zu der Nutzung von Cookies in unserer <a
+          href="datenschutz">Datenschutzerklärung.</a></p>
+      <button type="button" class="btn btn-danger datschbutton" id="cookie-ja">Alle erlauben</button>
+      <button type="button" class="btn btn-light datschbutton" id="cookie-nein">Nur notwendige erlauben</button>
+    </div>
+  </div>
 
-          </div>
-          <div class="knoepfe">
-            <div class="half1">
-              <a href="programm.pdf" target="_blank"> 
-                <button class='neu'> Unser Wahlprogramm. </button> 
-              </a>
-            </div>  
-            <div class="half2">  
-              <a href="mailto: kontakt@spd-herne.de"> 
-                <button class='neu'> Kontaktiere uns. </button> 
-              </a>
-            </div>
-            <div class="half3">
-              <a href=#target2>
-                <button class='neu' onclick='hide()'>Noch einmal.</button>
-              </a> 
-            </div>
-          </div>
-        </div>
-        <footer class="f2">
-          <a href="https://spdhernemitte.de/impressum/" target="_blank">Impressum</a> 
-          <a href="https://spdhernemitte.de/datenschutzerklaerung" target="_blank"> Datenschutzerklärung</a>
-        </footer>
+  <div id="Fragen" style="display: none;" class="wrapper">
+    <a name="target">
+      <div class="header">
+        <p id="p1"> SPD Herne SPD-O-Mat</p>
+        <p id="p2"> Sag uns, wie Du zu den folgenden Aussagen stehst,<br /> und wir sagen Dir, wie viel SPD in Dir
+          steckt.</p>
+        <img src="logo.png" id='logo2' />
+      </div>
+      <div id="d1a" style="padding-top: 5vh;">
+        <div id="aussagen"></div>
       </div>
     </a>
+    <div id="d5">
+      <a href="#target1">
+        <button onclick="wahlomat()">
+          Zur Auswertung.
+        </button>
+      </a>
+    </div>
+    <div class="float-alert cookie-alert">
+      <p>Wir benutzen auf dieser Seite Cookies, um die Funktionalität zu gewährleisten und eine Statistik über ihre
+        Effektivität aufzustellen. Erfahrung sie mehr zu der Nutzung von Cookies in unserer <a
+          href="datenschutz">Datenschutzerklärung.</a></p>
+      <button type="button" class="btn btn-danger datschbutton" id="cookie-ja">Alle erlauben</button>
+      <button type="button" class="btn btn-light datschbutton" id="cookie-nein">Nur notwendige erlauben</button>
+    </div>
+    <footer>
+      <a href="https://spdhernemitte.de/impressum/" target="_blank">Impressum</a>
+      <a href="https://spdhernemitte.de/datenschutzerklaerung" target="_blank"> Datenschutzerklärung</a>
+    </footer>
+  </div>
+  <a name="target1" href="#target2">
+    <div id="Ergebnis" style="display: none;">
+      <div class="wrapper2">
+        <div class='header2'>
+          <div>
+            <p id='p1'> SPD Herne SPD-O-Mat </p>
+            <p id='p2'> So viel SPD steckt in Dir...</p>
+          </div>
+          <img src='logo.png' id="logo2" />
+        </div>
+        <div id="Auswertung">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
-    <script src="render.js"></script>
-  </body>
+        </div>
+        <div class="knoepfe">
+          <div class="half1">
+            <a href="programm.pdf" target="_blank">
+              <button class='neu'> Unser Wahlprogramm. </button>
+            </a>
+          </div>
+          <div class="half2">
+            <a href="mailto: kontakt@spd-herne.de">
+              <button class='neu'> Kontaktiere uns. </button>
+            </a>
+          </div>
+          <div class="half3">
+            <a href=#target2>
+              <button class='neu' onclick='hide()'>Noch einmal.</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="float-alert cookie-alert">
+        <p>Wir benutzen auf dieser Seite Cookies, um die Funktionalität zu gewährleisten und eine Statistik über ihre
+          Effektivität aufzustellen. Erfahrung sie mehr zu der Nutzung von Cookies in unserer <a
+            href="datenschutz">Datenschutzerklärung.</a></p>
+        <button type="button" class="btn btn-danger datschbutton" id="cookie-ja">Alle erlauben</button>
+        <button type="button" class="btn btn-light datschbutton" id="cookie-nein">Nur notwendige erlauben</button>
+      </div>
+      <footer class="f2">
+        <a href="https://spdhernemitte.de/impressum/" target="_blank">Impressum</a>
+        <a href="https://spdhernemitte.de/datenschutzerklaerung" target="_blank"> Datenschutzerklärung</a>
+      </footer>
+    </div>
+  </a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="render.js"></script>
+  <script src="cookie.js" defer></script>
+</body>
+
 </html>
