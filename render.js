@@ -138,7 +138,7 @@ wahlomat = function () {
         } else if (Prz > 0) {
             Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3></div>`;
         } else {
-            Aussage.innerHTML = "<div id='weiss'><h3> Bist Du Dir sicher, dass Du hier richtig bist? Deine Antworten entsprechen zu 0 Prozent den Positionen der Hernre SPD.</h3></div>";
+            Aussage.innerHTML = `<div id='weiss'><h3> Fabian, bist du es? Deine Positionen entsprechen zu ${Prz} Prozent denen der NRW SPD.</h3></div>`;
         }
     } else {
         Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3></div>";
@@ -238,37 +238,37 @@ function generate() {
 
 var aussagen = [
     {
-        aussage: "Ein*e Kinderschutzbeauftragte*r soll die Arbeit aufnehmen, um Kinder in Herne zu schützen.",
+        aussage: "Etwas zu Wohnungen",
         bild_src: "Ulrich.png",
         bild_alt: "Ulrich Klonki",
         erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki' 
     },
     {
-        aussage: "Neubauprojekte und Sanierungen sollen klimafreundlich durchgeführt werden. Dazu gehören zum Beispiel Dachbegrünungen oder Photovoltaikanlagen.",
+        aussage: "Etwas zum Versammlungsgesetz",
         bild_src: "Amelie.png",
         bild_alt: "Amelie Menges",
         erklärtext: '"Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man neue und innovative Ideen für die Schaffung und Haltung von Wohnraum entwickelt, die auch den Umweltschutz bedenken. Das Herner Klimafolgenanpassungskonzept bietet dabei bereits einige gute Anhaltspunkte." - Amelie Menges' //" So wird das Stadtklima verbessert und  dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
     },
     {
-        aussage: "Es sollen mehr Betriebsräte in Herner Unternehmen gebildet werden.",
+        aussage: "Etwas zur Bildung.",
         bild_src: "Patrick.png",
         bild_alt: "Patrick Steinbach",
         erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach' 
     },
     { 
-        aussage: "An Herner Schulen sollen Elternhaltestellen eingerichtet werden.",
+        aussage: "Etwas zur Polizei (Kennzeichnungspflicht).",
         bild_src: "Theres.png",
         bild_alt: "Theres Boneberger",
         erklärtext: '"Kinder sollen ihren Schulweg möglichst selbständig, aber sicher bewältigen können. Wenn es doch das Auto sein muss, sind Elternhaltestellen eine sinnvolle Maßnahme, um Verkehrschaos vor den Schulen zu verhindern." - Theres Boneberger' 
     },
     {
-        aussage: "Herner Initiativen, die historische Bildungs- und Aufklärungsarbeit über den Nationalsozialismus leisten, sollen unterstützt werden.",
+        aussage: "Etwas zur Digitalisierung",
         bild_src: "Flemming.png",
         bild_alt: "Flemming Menges",
         erklärtext: '"Die wiederholte Beschädigung des Shoah-Mahnmales in Herne macht deutlich, dass es weiterhin wichtig bleibt, gerade auch lokal Aufklärungsarbeit über den Nationalsozialismus zu leisten." - Flemming Menges'
     },
     {
-        aussage: "Familien- und frauenbewusste Politik soll in Herner Unternehmen verankert werden.",
+        aussage: "Etwas zur Umweltpolitik.",
         bild_src: "Julia.png",
         bild_alt: "Julia Steinbach",
         erklärtext: '"Familien- und frauenbewusste Personalpolitik ist für die Arbeitgeber ein wichtiger Standortfaktor. Für viele neue Mitarbeiter ist es ein wesentliches Entscheidungskriterium, ob eine neue Stelle angenommen wird. Für Mütter - besonders zu Corona Zeiten - ist es sehr wichtig, flexibel zu sein. Gleitende Arbeitszeiten und Homeoffice sind heutzutage nicht nur Zukunftsmusik, sondern Voraussetzung, wenn man als Mutter oder gar als Alleinerziehende beruflich tätig sein will. Ein Großteil von Frauen arbeitet in systemrelevanten Berufen wie zum Beispiel in der Pflege oder im Einzelhandel. Jeder weiß um welche Arbeitszeiten es sich bei diesen Berufsbildern handelt. Gerade hier ist es mehr als erforderlich, die Kinderbetreuung auszuweiten. Mütter müssen die Möglichkeit haben, ihre Kinder flexibel betreuen zu lassen! Nur von 7:30 Uhr bis 16:00 Uhr Betreuungszeit - ggf. längerer Anfahrtsweg zum Arbeitsort berücksichtigt- sind überhaupt nicht ausreichend! Betriebseigene Kindergärten und Ausweitung des Betreuungsangebotes (6:00 Uhr bis 18:00 Uhr ggf. als Stempelsystem) sind unerlässlich, damit Mütter überhaupt einer Beschäftigung über Teilzeitniveau nachgehen können. Ferner brauchen wir mehr Frauen in Führungspositionen! Häufig mangelt es nicht an Bewerberinnen, sondern scheitert an der Unterdrückung der Männer! Das typische Frauenbild, die Frau, die sich um Haushalt und Kinderbetreuung kümmert, muss endlich aus den Köpfen der Männer verschwinden!" - Julia Steinbach' 
