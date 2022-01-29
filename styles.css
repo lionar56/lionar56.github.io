@@ -49,7 +49,7 @@ h2 {
 h3 {
   color: rgb(227, 0, 15);
   font-size: 25;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   margin-left: 5vw;
@@ -62,10 +62,6 @@ h3 {
   font-size: 30;
   padding-left: 10%;
   padding-right: 10%;
-}
-div#Fragen{
-  background: linear-gradient(to bottom, #F6D1EE, #FFD8A6);
-
 }
 div#d1 {
   grid-column-start: 1;
@@ -136,7 +132,7 @@ div#weiss {
 .header {
   background-color: rgb(227, 0, 15);
   color: white;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 20% 80%;
   cursor: default;
@@ -144,14 +140,14 @@ div#weiss {
 .header2 {
   background-color: rgb(227, 0, 15);
   color: white;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 15% 85%;
   cursor: default;
 }
 p#p1 {
   font-size: 50;
-  font-weight: bold;
+  font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
   text-align: center;
 }
 p#p2 {
@@ -198,7 +194,7 @@ button:hover {
   padding-left: 4vw;
   color: black;
   font-size: 20;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   text-align: left;
 }
 .antworten input {
@@ -250,7 +246,7 @@ details > summary {
   border: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
   font-size: 20;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   cursor: pointer;
   margin: auto;
   margin-bottom: 1vh;
@@ -305,7 +301,7 @@ summary:hover {
   width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
 }
 .text2 {
   color: white;
@@ -317,7 +313,7 @@ summary:hover {
   width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   overflow-y: scroll;
 }
 .bottom {
@@ -325,7 +321,7 @@ summary:hover {
   bottom: 1vh;
   left: 45%;
   font-size: 20;
-  font-family: Calibri, Helvetica, sans-serif;
+  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   color: rgb(227, 0, 15);
   font-weight: bold;
 }
@@ -427,18 +423,18 @@ p > a{
   h1 {
     color: rgb(227, 0, 15);
     font-size: 30;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     font-weight: bold;
   }
   h2 {
     color: rgb(227, 0, 15);
     font-size: 20;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   }
   h3 {
     color: rgb(227, 0, 15);
     font-size: 21;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 0vh;
     padding-bottom: 0vh;
@@ -506,14 +502,14 @@ p > a{
   .header {
     background-color: rgb(227, 0, 15);
     color: white;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
   }
   .header2 {
     background-color: rgb(227, 0, 15);
     color: white;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
     padding-bottom: 2vh;
@@ -537,7 +533,7 @@ p > a{
     text-align: center;
     text-decoration: none;
     font-size: 30;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -584,7 +580,7 @@ p > a{
     padding-left: 9vw;
     color: black;
     font-size: 18;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   }
   .antworten input {
     position: absolute;
@@ -633,7 +629,7 @@ p > a{
     color: white;
     background-color: #e3000f;
     font-size: 20;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     cursor: pointer;
     margin-bottom: 1vh;
     width: 90%;
@@ -682,14 +678,14 @@ p > a{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
   }
   .bottom {
     position: absolute;
     bottom: 1vh;
     left: 42%;
     font-size: 15;
-    font-family: Calibri, Helvetica, sans-serif;
+    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
     color: #e3000f;
     font-weight: bold;
   }
