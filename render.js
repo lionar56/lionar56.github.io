@@ -121,27 +121,34 @@ wahlomat = function () {
         SPD += 5;
         eig_Pkt += pkt10;
     }
-    
+
     var Aussage = document.querySelector("#Auswertung");
     if (SPD > 0) {
         var Prz = (eig_Pkt / SPD) * 100;
         Prz = Math.round(Prz * 100) / 100;
 
         if (Prz == 100) {
-            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.spd.de/unterstuetzen/mitglied-werden/' target='_blank'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3></div>";
+            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.spd.de/unterstuetzen/mitglied-werden/' target='_blank'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image'/></div>";
         } else if (Prz >= 80) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
         } else if (Prz >= 60) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau Dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir Dich noch mit einigen weiteren Punkten überzeugen. </h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau Dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir Dich noch mit einigen weiteren Punkten überzeugen. </h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
         } else if (Prz >= 40) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir Dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir Deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir Dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir Deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
         } else if (Prz > 0) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
         } else {
-            Aussage.innerHTML = `<div id='weiss'><h3> Fabian, bist du es? Deine Positionen entsprechen zu ${Prz} Prozent denen der NRW SPD.</h3></div>`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Fabian, bist du es? Deine Positionen entsprechen zu ${Prz} Prozent denen der NRW SPD.</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
         }
     } else {
-        Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3></div>";
+        Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >";
     }
     var feld = document.querySelector("#Ergebnis");
     feld.style.display = "block";
@@ -179,13 +186,13 @@ function generate() {
         var container = $("<div onclick='' class='container'></div>");
         container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>")
 
-        var l=aussage.erklärtext.length;
+        var l = aussage.erklärtext.length;
 
         var overlay = $("<div class='overlay'></div >");
-        if (l<525){
+        if (l < 525) {
             overlay.append("<div class='text'>" + aussage.erklärtext + "</div>");
         }
-        else{
+        else {
             overlay.append("<div class='text2'>" + aussage.erklärtext + "</div>");
         }
 
@@ -241,7 +248,7 @@ var aussagen = [
         aussage: "Etwas zu Wohnungen",
         bild_src: "Ulrich.png",
         bild_alt: "Ulrich Klonki",
-        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki' 
+        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki'
     },
     {
         aussage: "Etwas zum Versammlungsgesetz",
@@ -253,13 +260,13 @@ var aussagen = [
         aussage: "Etwas zur Bildung.",
         bild_src: "Patrick.png",
         bild_alt: "Patrick Steinbach",
-        erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach' 
+        erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach'
     },
-    { 
+    {
         aussage: "Etwas zur Polizei (Kennzeichnungspflicht).",
         bild_src: "Theres.png",
         bild_alt: "Theres Boneberger",
-        erklärtext: '"Kinder sollen ihren Schulweg möglichst selbständig, aber sicher bewältigen können. Wenn es doch das Auto sein muss, sind Elternhaltestellen eine sinnvolle Maßnahme, um Verkehrschaos vor den Schulen zu verhindern." - Theres Boneberger' 
+        erklärtext: '"Kinder sollen ihren Schulweg möglichst selbständig, aber sicher bewältigen können. Wenn es doch das Auto sein muss, sind Elternhaltestellen eine sinnvolle Maßnahme, um Verkehrschaos vor den Schulen zu verhindern." - Theres Boneberger'
     },
     {
         aussage: "Etwas zur Digitalisierung",
@@ -271,7 +278,7 @@ var aussagen = [
         aussage: "Etwas zur Umweltpolitik.",
         bild_src: "Julia.png",
         bild_alt: "Julia Steinbach",
-        erklärtext: '"Familien- und frauenbewusste Personalpolitik ist für die Arbeitgeber ein wichtiger Standortfaktor. Für viele neue Mitarbeiter ist es ein wesentliches Entscheidungskriterium, ob eine neue Stelle angenommen wird. Für Mütter - besonders zu Corona Zeiten - ist es sehr wichtig, flexibel zu sein. Gleitende Arbeitszeiten und Homeoffice sind heutzutage nicht nur Zukunftsmusik, sondern Voraussetzung, wenn man als Mutter oder gar als Alleinerziehende beruflich tätig sein will. Ein Großteil von Frauen arbeitet in systemrelevanten Berufen wie zum Beispiel in der Pflege oder im Einzelhandel. Jeder weiß um welche Arbeitszeiten es sich bei diesen Berufsbildern handelt. Gerade hier ist es mehr als erforderlich, die Kinderbetreuung auszuweiten. Mütter müssen die Möglichkeit haben, ihre Kinder flexibel betreuen zu lassen! Nur von 7:30 Uhr bis 16:00 Uhr Betreuungszeit - ggf. längerer Anfahrtsweg zum Arbeitsort berücksichtigt- sind überhaupt nicht ausreichend! Betriebseigene Kindergärten und Ausweitung des Betreuungsangebotes (6:00 Uhr bis 18:00 Uhr ggf. als Stempelsystem) sind unerlässlich, damit Mütter überhaupt einer Beschäftigung über Teilzeitniveau nachgehen können. Ferner brauchen wir mehr Frauen in Führungspositionen! Häufig mangelt es nicht an Bewerberinnen, sondern scheitert an der Unterdrückung der Männer! Das typische Frauenbild, die Frau, die sich um Haushalt und Kinderbetreuung kümmert, muss endlich aus den Köpfen der Männer verschwinden!" - Julia Steinbach' 
+        erklärtext: '"Familien- und frauenbewusste Personalpolitik ist für die Arbeitgeber ein wichtiger Standortfaktor. Für viele neue Mitarbeiter ist es ein wesentliches Entscheidungskriterium, ob eine neue Stelle angenommen wird. Für Mütter - besonders zu Corona Zeiten - ist es sehr wichtig, flexibel zu sein. Gleitende Arbeitszeiten und Homeoffice sind heutzutage nicht nur Zukunftsmusik, sondern Voraussetzung, wenn man als Mutter oder gar als Alleinerziehende beruflich tätig sein will. Ein Großteil von Frauen arbeitet in systemrelevanten Berufen wie zum Beispiel in der Pflege oder im Einzelhandel. Jeder weiß um welche Arbeitszeiten es sich bei diesen Berufsbildern handelt. Gerade hier ist es mehr als erforderlich, die Kinderbetreuung auszuweiten. Mütter müssen die Möglichkeit haben, ihre Kinder flexibel betreuen zu lassen! Nur von 7:30 Uhr bis 16:00 Uhr Betreuungszeit - ggf. längerer Anfahrtsweg zum Arbeitsort berücksichtigt- sind überhaupt nicht ausreichend! Betriebseigene Kindergärten und Ausweitung des Betreuungsangebotes (6:00 Uhr bis 18:00 Uhr ggf. als Stempelsystem) sind unerlässlich, damit Mütter überhaupt einer Beschäftigung über Teilzeitniveau nachgehen können. Ferner brauchen wir mehr Frauen in Führungspositionen! Häufig mangelt es nicht an Bewerberinnen, sondern scheitert an der Unterdrückung der Männer! Das typische Frauenbild, die Frau, die sich um Haushalt und Kinderbetreuung kümmert, muss endlich aus den Köpfen der Männer verschwinden!" - Julia Steinbach'
     },
     {
         aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
