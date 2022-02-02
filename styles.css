@@ -16,6 +16,8 @@ html {
 body {
   background: linear-gradient(to bottom, #F6D1EE, #FFD8A6);
   margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 img {
   width: 100%;
