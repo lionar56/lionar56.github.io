@@ -128,31 +128,24 @@ wahlomat = function () {
     if (SPD > 0) {
         var Prz = (eig_Pkt / SPD) * 100;
         Prz = Math.round(Prz * 100) / 100;
-
         if (Prz == 100) {
-            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass Du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.spd.de/unterstuetzen/mitglied-werden/' target='_blank'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image'/></div>";
-            body.style.background = 'linear-gradient(to bottom, #000000, #FFD8A6)';
+            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.spd.de/unterstuetzen/mitglied-werden/' target='_blank'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung'/></div>";
         } else if (Prz >= 80) {
             Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
-            body.style.background = 'linear-gradient(to bottom, #000000, #FFD8A6)';
+            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
         } else if (Prz >= 60) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau Dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir Dich noch mit einigen weiteren Punkten überzeugen. </h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
-            body.style.background = 'linear-gradient(to bottom, #000000, #FFD8A6)';
+            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir dich noch mit einigen weiteren Punkten überzeugen. </h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
         } else if (Prz >= 40) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir Dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir Deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
-            body.style.background = 'linear-gradient(to bottom, #000000, #FFD8A6)';
+            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
         } else if (Prz > 0) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in Deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
-            body.style.background = 'linear-gradient(to bottom, #000000, #FFD8A6)';
+            Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3>\
+            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
         } else {
             Aussage.innerHTML = `<div id='weiss'><h3> Fabian, bist du es? Deine Positionen entsprechen zu ${Prz} Prozent denen der NRW SPD.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >`;
-            body.style.background = 'linear-gradient(to bottom, #000000, #FFD8A6)';
+            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
         }
     } else {
         Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3>\
@@ -189,7 +182,7 @@ function generate() {
 
         //Das sagte die SPD dazu
         var spddazu = $("<details></details>")
-        spddazu.append($("<summary>Das sagt die SPD Herne dazu:  </summary>"));
+        spddazu.append($("<summary>Das sagt Alexander Vogt dazu:  </summary>"));
 
         var container = $("<div onclick='' class='container'></div>");
         container.append("<img src=" + aussage.bild_src + " alt=" + aussage.bild_alt + " class='image'/>")
@@ -253,61 +246,61 @@ function generate() {
 
 var aussagen = [
     {
-        aussage: "Etwas zu Wohnungen",
+        aussage: "Die Bevölkerung in der Nähe von Windenergieanlagen soll von vergünstigten Strompreisen profitieren oder sich finanziell an den Anlagen beteiligen können.",
         bild_src: "Ulrich.png",
         bild_alt: "Ulrich Klonki",
         erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki'
     },
     {
-        aussage: "Etwas zum Versammlungsgesetz",
+        aussage: "Lärmschutzwände entlang von Autobahnen und Gleisen sollen mit Photovoltaikpanels ausgestattet werden.",
         bild_src: "Amelie.png",
         bild_alt: "Amelie Menges",
         erklärtext: '"Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man neue und innovative Ideen für die Schaffung und Haltung von Wohnraum entwickelt, die auch den Umweltschutz bedenken. Das Herner Klimafolgenanpassungskonzept bietet dabei bereits einige gute Anhaltspunkte." - Amelie Menges' //" So wird das Stadtklima verbessert und  dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
     },
     {
-        aussage: "Etwas zur Bildung.",
+        aussage: "Es soll eine Ausbildungsplatzgarantie in Nordrhein-Westfalen eingeführt werden, finanziert indem Betriebe, die nicht ausbilden, die Kosten tragen.",
         bild_src: "Patrick.png",
         bild_alt: "Patrick Steinbach",
         erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach'
     },
     {
-        aussage: "Etwas zur Polizei (Kennzeichnungspflicht).",
+        aussage: "Die Anwendung der Mietpreisbremse soll erleichtert werden.",
         bild_src: "Theres.png",
         bild_alt: "Theres Boneberger",
         erklärtext: '"Kinder sollen ihren Schulweg möglichst selbständig, aber sicher bewältigen können. Wenn es doch das Auto sein muss, sind Elternhaltestellen eine sinnvolle Maßnahme, um Verkehrschaos vor den Schulen zu verhindern." - Theres Boneberger'
     },
     {
-        aussage: "Etwas zur Digitalisierung",
+        aussage: "Das Fach Sozialwissenschaften soll wieder eingeführt werden.",
         bild_src: "Flemming.png",
         bild_alt: "Flemming Menges",
         erklärtext: '"Die wiederholte Beschädigung des Shoah-Mahnmales in Herne macht deutlich, dass es weiterhin wichtig bleibt, gerade auch lokal Aufklärungsarbeit über den Nationalsozialismus zu leisten." - Flemming Menges'
     },
     {
-        aussage: "Etwas zur Umweltpolitik.",
+        aussage: "Das aktive Wahlrecht für Landtagswahlen soll auf 16 Jahre herabgesenkt werden und das kommunale Wahlrecht auch auf Ausländer und Ausländerinnen aus Nicht-EU-Staaten erweitert werden.",
         bild_src: "Julia.png",
         bild_alt: "Julia Steinbach",
         erklärtext: '"Familien- und frauenbewusste Personalpolitik ist für die Arbeitgeber ein wichtiger Standortfaktor. Für viele neue Mitarbeiter ist es ein wesentliches Entscheidungskriterium, ob eine neue Stelle angenommen wird. Für Mütter - besonders zu Corona Zeiten - ist es sehr wichtig, flexibel zu sein. Gleitende Arbeitszeiten und Homeoffice sind heutzutage nicht nur Zukunftsmusik, sondern Voraussetzung, wenn man als Mutter oder gar als Alleinerziehende beruflich tätig sein will. Ein Großteil von Frauen arbeitet in systemrelevanten Berufen wie zum Beispiel in der Pflege oder im Einzelhandel. Jeder weiß um welche Arbeitszeiten es sich bei diesen Berufsbildern handelt. Gerade hier ist es mehr als erforderlich, die Kinderbetreuung auszuweiten. Mütter müssen die Möglichkeit haben, ihre Kinder flexibel betreuen zu lassen! Nur von 7:30 Uhr bis 16:00 Uhr Betreuungszeit - ggf. längerer Anfahrtsweg zum Arbeitsort berücksichtigt- sind überhaupt nicht ausreichend! Betriebseigene Kindergärten und Ausweitung des Betreuungsangebotes (6:00 Uhr bis 18:00 Uhr ggf. als Stempelsystem) sind unerlässlich, damit Mütter überhaupt einer Beschäftigung über Teilzeitniveau nachgehen können. Ferner brauchen wir mehr Frauen in Führungspositionen! Häufig mangelt es nicht an Bewerberinnen, sondern scheitert an der Unterdrückung der Männer! Das typische Frauenbild, die Frau, die sich um Haushalt und Kinderbetreuung kümmert, muss endlich aus den Köpfen der Männer verschwinden!" - Julia Steinbach'
     },
     {
-        aussage: "Es sollen Mobilitätsstationen eingerichtet werden, an denen die verschiedenen Verkehrsmittel miteinander verknüpft werden.",
+        aussage: "Für Schülerinnen und Schüler soll ein kostenfreies Ticket eingeführt werden.",
         bild_src: "Jurgen.png",
         bild_alt: "Jürgen Scharmacher",
         erklärtext: '"Mobilstationen dienen als sichtbare Verknüpfungspunkte zur Vernetzung mehrerer Verkehrsmittel in direkter räumlicher Verbindung. Ziel ist die Verbindung verschiedener Verkehrsmittel an dafür erkennbaren Punkten. Mobilstationen beinhalten darüber hinaus weitere Serviceangebote wie eine gute Aufenthaltsqualität, um klimafreundliche Mobilitätsangebote für die Bürgerinnen und Bürger attraktiv zu gestalten." - Jürgen Scharmacher'
     },
     {
-        aussage: "Für den sozialen Wohnungsbau in Herne sollen Flächen freigehalten werden.",
+        aussage: "Ein unabhängiger Polizeibeauftragter soll als Ansprechpartner für Menschen innerhalb und außerhalb der Polizei zur Verfügung steht.",
         bild_src: "Elisabeth.png",
         bild_alt: "Elisabeth Majchrzak-Frensel",
         erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden, sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel'
     },
     {
-        aussage: "Städtische Sportanlagen sollen weiterhin kostenlos für alle zur Verfügung stehen.",
+        aussage: "Das bestehende Versammlungsgesetz soll durch ein Versammlungsfreiheitsgesetz ersetzt werden.",
         bild_src: "Hendrik.png",
         bild_alt: "Hendrik Bollmann",
         erklärtext: '"Die Sportanlagen in Herne müssen weiterhin kostenlos genutzt werden können. Beim Sport wächst Gesellschaft zusammen. Das sollte nichts kosten!" - Hendrik Bollmann'
     },
     {
-        aussage: "Die interkulturelle Öffnung der Stadt Herne, ihrer Verwaltung und ihrer Tochtergesellschaften soll weiter vorangetrieben werden.",
+        aussage: "Auf Landesebene soll eine Antidiskriminierungsstelle eingerichtet werden.",
         bild_src: "Emek.png",
         bild_alt: "Emek Öner",
         erklärtext: '"Migration ist auch mit Teilhabe und Partizipation aller verbunden, wir dürfen keine Unterschiede machen und müssen jedem - unabhängig von Nationalität, Herkunft und Identität - eine Möglichkeit geben, um teilzuhaben! - Emek Öner'

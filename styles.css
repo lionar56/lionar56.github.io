@@ -280,6 +280,11 @@ summary:hover {
   width: 100%;
   height: auto;
 }
+.imageAuswertung {
+  display: block;
+  width: 50%;
+  height: auto;
+}
 
 .overlay {
   position: absolute;
