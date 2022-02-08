@@ -1,6 +1,12 @@
 html {
   margin: 0;
 }
+.wrapper1 {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 40% 30% 20% 10%;
+}
 .wrapper {
   height: 100vh;
   display: grid;
@@ -23,8 +29,8 @@ img {
   width: 100%;
 }
 .logo {
-  width: 55%;
-  margin-left: 5vw;
+  width: 20%;
+  margin-left: 2vw;
   margin-bottom: 0vh;
 }
 img#logo2 {
@@ -69,8 +75,7 @@ div#d1 {
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
-  padding-top: 4vh;
-  padding-bottom: 2vh;
+  padding-top: 10vh;
   font-size: 45;
   cursor: default;
 }
@@ -80,12 +85,14 @@ div#d1a {
   text-align: center;
 }
 div#d2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
   text-align: center;
-  margin-top: 10vh;
+  padding-bottom: 10vh;
 }
 div#d3 {
+  grid-row: 3;
   display: flex;
-  align-items: baseline;
 }
 div#d4 {
   grid-column-start: 1;
