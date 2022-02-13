@@ -29,8 +29,8 @@ img {
   width: 100%;
 }
 .logo {
-  width: 20%;
-  margin-left: 2vw;
+  width:auto;
+  margin-left: 1vw;
   margin-bottom: 0vh;
 }
 img#logo2 {
