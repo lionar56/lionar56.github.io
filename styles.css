@@ -482,10 +482,6 @@ p > a{
     text-align: center;
     margin-top: 2vh;
   }
-  div#d3 {
-    grid-row-start: 3;
-    grid-column-start: 1;
-  }
   div#d4 {
     padding-left: 20%;
   }
@@ -707,8 +703,6 @@ p > a{
     font-weight: bold;
   }
   .f1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
     margin-top: 1.5%;
   }
   .f2 {
