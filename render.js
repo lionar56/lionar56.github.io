@@ -129,27 +129,21 @@ wahlomat = function () {
         var Prz = (eig_Pkt / SPD) * 100;
         Prz = Math.round(Prz * 100) / 100;
         if (Prz == 100) {
-            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.spd.de/unterstuetzen/mitglied-werden/' target='_blank'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung'/></div>";
+            Aussage.innerHTML = "<div id='weiss'><h3> Wow! Sicher, dass du nicht mitgeschrieben hast am Wahlprogramm? Deine Antworten entsprechen zu 100 Prozent den Positionen der Herner SPD. <a href='https://www.spd.de/unterstuetzen/mitglied-werden/' target='_blank'> Hier </a> kannst du Mitglied werden, denn wir freuen uns immer über Verstärkung!</h3></div>";
         } else if (Prz >= 80) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Sehr schön! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD.</h3></div >`;
         } else if (Prz >= 60) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir dich noch mit einigen weiteren Punkten überzeugen. </h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Das sieht doch schon ganz passend aus. Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schau dir doch mal unser Kommunalwahlprogramm an, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen. Vielleicht können wir dich noch mit einigen weiteren Punkten überzeugen. </h3></div >`;
         } else if (Prz >= 40) {
-            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Gerne überzeugen wir dich noch mehr von uns! Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Schreib uns doch, was wir deiner Meinung nach besser machen können oder wirf einen Blick in unser Kommunalwahlprogramm. </h3></div >`;
         } else if (Prz > 0) {
             Aussage.innerHTML = `<div id='weiss'><h3> Deine Antworten entsprechen zu ${Prz} Prozent den Positionen der Herner SPD. Wir sind uns sicher: Da geht noch mehr. Schreib uns und lass uns diskutieren, was wir in deinen Augen besser machen können. Oder wirf einen Blick in unser Kommunalwahlprogramm, um zu entdecken, was wir gemeinsam mit den Bürgerinnen und Bürgern in Herne erreichen wollen.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
+            </div >`;
         } else {
-            Aussage.innerHTML = `<div id='weiss'><h3> Fabian, bist du es? Deine Positionen entsprechen zu ${Prz} Prozent denen der NRW SPD.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='imageAuswertung' /></div >`;
+            Aussage.innerHTML = `<div id='weiss'><h3> Fabian, bist du es? Deine Positionen entsprechen zu ${Prz} Prozent denen der NRW SPD.</h3></div >`;
         }
     } else {
-        Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3>\
-            <img src='Artur.png' alt='Alternativer Text' class='image' /></div >";
+        Aussage.innerHTML = "<div id='weiss'><h3> Dich interessiert keine der Aussagen? Schreib uns doch einmal, was Dich interessieren würde.</h3></div >";
     }
     var feld = document.querySelector("#Ergebnis");
     feld.style.display = "block";
