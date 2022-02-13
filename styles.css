@@ -148,7 +148,7 @@ div#weiss {
   color: white;
   font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
   cursor: default;
 }
 p#p1 {
