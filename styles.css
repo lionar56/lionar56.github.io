@@ -20,7 +20,7 @@ html {
   grid-template-columns: 100%;
 }
 body {
-  background: linear-gradient(to bottom, #F6D1EE, #FFD8A6);
+  background: linear-gradient(to bottom, #f6d1ee, #ffd8a6);
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -29,7 +29,7 @@ img {
   width: 100%;
 }
 .logo {
-  width:auto;
+  width: auto;
   margin-left: 1vw;
   margin-bottom: 0vh;
 }
@@ -42,18 +42,18 @@ img#logo2 {
 h1 {
   color: rgb(227, 0, 15);
   font-size: 45;
-  font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
+  font-family: "Playfair Display", Calibri, Helvetica, sans-serif;
   font-weight: bold;
 }
 h2 {
   color: rgb(227, 0, 15);
   font-size: 30;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
 }
 h3 {
   color: rgb(227, 0, 15);
   font-size: 25;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   margin-left: 5vw;
@@ -82,7 +82,7 @@ div#d1a {
 }
 div#d2 {
   grid-row: 2;
-  grid-column:2;
+  grid-column: 2;
   text-align: center;
   padding-bottom: 10vh;
 }
@@ -137,7 +137,7 @@ div#weiss {
 .header {
   background-color: rgb(227, 0, 15);
   color: white;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 20% 80%;
   cursor: default;
@@ -145,14 +145,14 @@ div#weiss {
 .header2 {
   background-color: rgb(227, 0, 15);
   color: white;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 15% 85%;
   cursor: default;
 }
 p#p1 {
   font-size: 50;
-  font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
+  font-family: "Playfair Display", Calibri, Helvetica, sans-serif;
   text-align: center;
 }
 p#p2 {
@@ -167,7 +167,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 40;
-  font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
+  font-family: "Playfair Display", Calibri, Helvetica, sans-serif;
   font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -199,7 +199,7 @@ button:hover {
   padding-left: 4vw;
   color: black;
   font-size: 20;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   text-align: left;
 }
 .antworten input {
@@ -251,7 +251,7 @@ details > summary {
   border: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
   font-size: 20;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   cursor: pointer;
   margin: auto;
   margin-bottom: 1vh;
@@ -280,6 +280,9 @@ summary:hover {
   display: block;
   width: 50%;
   height: auto;
+  margin: 0 auto;
+  max-height: 520px;
+  max-width: 780px;
 }
 
 .overlay {
@@ -311,7 +314,7 @@ summary:hover {
   width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
 }
 .text2 {
   color: white;
@@ -323,7 +326,7 @@ summary:hover {
   width: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   overflow-y: scroll;
 }
 .bottom {
@@ -331,7 +334,7 @@ summary:hover {
   bottom: 1vh;
   left: 45%;
   font-size: 20;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   color: rgb(227, 0, 15);
   font-weight: bold;
 }
@@ -361,19 +364,19 @@ footer {
 footer > a {
   color: white;
   text-decoration: none;
-  font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetica, sans-serif;
 }
 .float-alert {
-  color:white;
+  color: white;
   position: fixed;
   width: 100%;
   z-index: 5;
   top: 40%;
-  background-color: #323C7D;
+  background-color: #323c7d;
   text-align: center;
-  font-family: 'Quicksand', Calibri, Helvetic, sans-serif;
+  font-family: "Quicksand", Calibri, Helvetic, sans-serif;
 }
-p > a{
+p > a {
   color: #e3000f;
 }
 .datschbutton {
@@ -401,6 +404,7 @@ p > a{
   html {
     margin: 0;
   }
+
   .wrapper1{
     display: grid;
     grid-template-rows: 25% 25% 40% 10%;
@@ -435,18 +439,18 @@ p > a{
   h1 {
     color: rgb(227, 0, 15);
     font-size: 30;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     font-weight: bold;
   }
   h2 {
     color: rgb(227, 0, 15);
     font-size: 20;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   }
   h3 {
     color: rgb(227, 0, 15);
     font-size: 21;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 0vh;
     padding-bottom: 0vh;
@@ -514,14 +518,14 @@ p > a{
   .header {
     background-color: rgb(227, 0, 15);
     color: white;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
   }
   .header2 {
     background-color: rgb(227, 0, 15);
     color: white;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 100%;
     padding-bottom: 2vh;
@@ -545,7 +549,7 @@ p > a{
     text-align: center;
     text-decoration: none;
     font-size: 30;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -592,7 +596,7 @@ p > a{
     padding-left: 9vw;
     color: black;
     font-size: 18;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   }
   .antworten input {
     position: absolute;
@@ -641,7 +645,7 @@ p > a{
     color: white;
     background-color: #e3000f;
     font-size: 20;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     cursor: pointer;
     margin-bottom: 1vh;
     width: 90%;
@@ -690,14 +694,14 @@ p > a{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
   }
   .bottom {
     position: absolute;
     bottom: 1vh;
     left: 42%;
     font-size: 15;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: "Quicksand", Calibri, Helvetica, sans-serif;
     color: #e3000f;
     font-weight: bold;
   }
