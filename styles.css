@@ -611,6 +611,8 @@ p > a {
     width: 5vw;
     background-color: #eee;
     border-radius: 50%;
+    max-width: 30;
+    max-height: 30;
   }
   .antworten:hover input ~ .checkmark {
     background-color: #ccc;
