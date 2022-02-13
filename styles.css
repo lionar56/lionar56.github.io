@@ -408,7 +408,7 @@ p > a {
 
   .wrapper1{
     display: grid;
-    grid-template-rows: 25% 25% 30% 10%;
+    grid-template-rows: 30% 35% 20% 5%;
   }
   .wrapper {
     height: 100vh;
