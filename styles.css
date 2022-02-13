@@ -221,7 +221,7 @@ button:hover {
   background-color: #ccc;
 }
 .antworten input:checked ~ .checkmark {
-  background-color: #00b4cc;
+  background-color: #323c7d;
 }
 .checkmark:after {
   content: "";
@@ -241,7 +241,7 @@ button:hover {
 }
 a {
   text-decoration: none;
-  color: #00b4cc;
+  color: #323c7d;
 }
 details {
   margin-bottom: 3vh;
@@ -296,7 +296,7 @@ summary:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #00b4cc;
+  background-color: #323c7d;
 }
 
 .container:hover .overlay {
@@ -620,7 +620,7 @@ p > a {
     background-color: #ccc;
   }
   .antworten input:checked ~ .checkmark {
-    background-color: #00b4cc;
+    background-color: #323c7d;
   }
   .checkmark:after {
     content: "";
@@ -640,7 +640,7 @@ p > a {
   }
   a {
     text-decoration: none;
-    color: #00b4cc;
+    color: #323c7d;
   }
   details {
     margin-bottom: 3vh;
@@ -680,7 +680,7 @@ p > a {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: #00b4cc;
+    background-color: #323c7d;
     cursor: pointer;
   }
 
