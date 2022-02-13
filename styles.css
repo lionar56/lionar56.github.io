@@ -435,7 +435,7 @@ p > a{
   h1 {
     color: rgb(227, 0, 15);
     font-size: 30;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
     font-weight: bold;
   }
   h2 {
@@ -528,6 +528,7 @@ p > a{
   }
   p#p1 {
     font-size: 23;
+    font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
@@ -545,7 +546,7 @@ p > a{
     text-align: center;
     text-decoration: none;
     font-size: 30;
-    font-family: 'Quicksand', Calibri, Helvetica, sans-serif;
+    font-family: 'Playfair Display', Calibri, Helvetica, sans-serif;
     font-weight: bold;
     transition-duration: 0.4s;
     cursor: pointer;
