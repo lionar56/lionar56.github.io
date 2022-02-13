@@ -423,8 +423,8 @@ p > a{
   }
 
   .logo {
-    width: auto;
-    align-items: center;
+    margin-left: 40%;
+    display: block;
   }
   img#logo2 {
     display: block;
