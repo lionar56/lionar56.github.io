@@ -404,11 +404,10 @@ p > a {
   html {
     margin: 0;
   }
-  .wrapper1 {
-    height: 100vh;
+
+  .wrapper1{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 27vh 28vh 40vh 5vh;
+    grid-template-rows: 25% 25% 40% 10%;
   }
   .wrapper {
     height: 100vh;
@@ -426,13 +425,10 @@ p > a {
     background-color: #eeeeee;
     margin: 0;
   }
-  img {
-    width: 100vw;
-  }
+
   .logo {
-    width: 55%;
-    margin-left: 22.5%;
-    margin-bottom: 2vh;
+    width: auto;
+    align-items: center;
   }
   img#logo2 {
     display: block;
@@ -469,6 +465,7 @@ p > a {
     margin-top: 1vh;
   }
   div#d1 {
+    grid-row: 1;
     text-align: center;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -485,9 +482,8 @@ p > a {
     text-align: center;
     margin-top: 2vh;
   }
-  div#d3 {
-    grid-row-start: 3;
-    grid-column-start: 1;
+  div#d3{
+    grid-row: 3;
   }
   div#d4 {
     padding-left: 20%;
@@ -710,9 +706,8 @@ p > a {
     font-weight: bold;
   }
   .f1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
     margin-top: 1.5%;
+    grid-row: 4;
   }
   .f2 {
     margin-top: 5vh;
