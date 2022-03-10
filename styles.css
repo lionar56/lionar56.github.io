@@ -28,7 +28,7 @@ body {
 img {
   width: 100%;
 }
-.logo {
+img#logo {
   width: auto;
   margin-left: 1vw;
   margin-bottom: 0vh;
@@ -406,9 +406,12 @@ p > a {
     margin: 0;
   }
 
-  .wrapper1{
+  .wrapper1 {
     display: grid;
     grid-template-rows: 35% 35% 25% 5%;
+    height: 100vh;
+    grid-template-columns: 25% 50% 25%;
+
   }
   .wrapper {
     height: 100vh;
@@ -423,13 +426,14 @@ p > a {
     grid-template-rows: 20% 50% 30%;
   }
   body {
-    background-color: #eeeeee;
+    background: linear-gradient(to bottom, #f6d1ee, #ffd8a6);
     margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
-  .logo {
-    display: block;
-    margin-left: 100%;
+  img#logo {
+    width: 200px;
   }
   img#logo2 {
     display: block;
@@ -485,6 +489,8 @@ p > a {
   }
   div#d3{
     grid-row: 3;
+    display: flex;
+    justify-content: center;
   }
   div#d4 {
     padding-left: 20%;
@@ -664,11 +670,7 @@ p > a {
     cursor: pointer;
   }
 
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+
 
   .overlay {
     position: absolute;
