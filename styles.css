@@ -410,7 +410,7 @@ p > a {
     display: grid;
     grid-template-rows: 35% 35% 25% 5%;
     height: 100vh;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 100%;
 
   }
   .wrapper {
@@ -433,7 +433,7 @@ p > a {
   }
 
   img#logo {
-    width: 200px;
+    width: auto;
   }
   img#logo2 {
     display: block;
@@ -476,6 +476,8 @@ p > a {
     padding-bottom: 2vh;
     padding-left: 1vw;
     padding-right: 1vw;
+    grid-column-start: 1;
+    grid-column-end: 1;
   }
   div#d1a {
     text-align: center;
@@ -486,6 +488,8 @@ p > a {
     grid-row: 2;
     text-align: center;
     margin-top: 2vh;
+    grid-column-start: 1;
+    grid-column-end: 1;
   }
   div#d3{
     grid-row: 3;
