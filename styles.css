@@ -433,6 +433,9 @@ p > a {
   }
 
   img#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
   }
   img#logo2 {
@@ -493,8 +496,6 @@ p > a {
   }
   div#d3{
     grid-row: 3;
-    display: flex;
-    justify-content: center;
   }
   div#d4 {
     padding-left: 20%;
