@@ -243,60 +243,60 @@ var aussagen = [
         aussage: "Die Bevölkerung in der Nähe von Windenergieanlagen soll von vergünstigten Strompreisen profitieren oder sich finanziell an den Anlagen beteiligen können.",
         bild_src: "alex1.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Wir brauchen eine*n Kinderschutzbeauftragte*n, der*die sich unabhängig von allen Institutionen um die Schutzbedürftigkeit von Kindern und Jugendlichen kümmert. Der Schutz und die Rechte der Kinder und Jugendlichen müssen Vorrang haben." - Ulrich Klonki'
+        erklärtext: '"Der Bürger*innenwindpark in Coesfeld ist ein Vorzeigebeispiel, wie Klimaschutz zu einem Gewinn für alle werden kann. Windenergieanlagen zu einem Gemeinschaftsprojekt zu machen, löst Widerstände auf und schafft bessere Lebensbedingungen für die Menschen vor Ort. Solche Projekte, von denen Bürgerinnen und Bürger profitieren, müssen wir weiter vorantreiben.'
     },
     {
         aussage: "Lärmschutzwände entlang von Autobahnen und Gleisen sollen mit Photovoltaikpanels ausgestattet werden.",
         bild_src: "alex2.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Gerade in einer so dicht besiedelten Stadt wie Herne ist es wichtig, dass man neue und innovative Ideen für die Schaffung und Haltung von Wohnraum entwickelt, die auch den Umweltschutz bedenken. Das Herner Klimafolgenanpassungskonzept bietet dabei bereits einige gute Anhaltspunkte." - Amelie Menges' //" So wird das Stadtklima verbessert und  dass man bei Neubauten und Sanierungen immer auch den Umweltschutz bedenkt: So verbessern Dachbegrünungen das Stadtklima und stehen der Schaffung von neuem Wohnraum nicht im Weg. Denn Wohnraum muss immer auch bezahlbar sein.
+        erklärtext: '"Wir wollen Solaranlagen nicht nur auf möglichst viele Dächer bringen, sondern denken zur Rettung unseres Klimas noch weiter. Lärmschutzwände entlang von Autobahnen und Gleisen sind eine innovative Möglichkeit, um systematisch Chancen für mehr erneuerbare Stromproduktion zu nutzen.' 
     },
     {
         aussage: "Es soll eine Ausbildungsplatzgarantie in Nordrhein-Westfalen eingeführt werden, finanziert indem Betriebe, die nicht ausbilden, die Kosten tragen.",
         bild_src: "alex3.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Herne braucht mehr Betriebsräte, denn Firmen mit Betriebsrat sind durchschnittlich 18 Prozent produktiver als solche ohne. Der Grund: Arbeitnehmervertretungen erkennen Probleme im Arbeitsalltag schneller und sorgen für einen besseren Austausch zwischen Belegschaft und Management. Gerade in kleinen Bäckereien, Restaurants und Pensionen brauchen wir mehr Betriebsräte. Denn ohne das Sprachrohr der Belegschaft ziehen Beschäftigte oft den Kürzeren – von der Arbeitszeit bis zur Personalplanung. Nicht jedem Arbeitgeber, der jammert, geht es wirklich schlecht. Gerade in Krisenzeiten segeln manche unter falscher Flagge und reduzieren Belegschaft und Löhne ohne Not. Nur der Betriebsrat kann alle Informationen verlangen, um die wirkliche wirtschaftliche Situation des Unternehmens zu überprüfen. Dem einzelnen Mitarbeiter wird der Vorstand niemals die Bilanzen vorlegen. Arbeitnehmerüberwachung nimmt zu. Nur der Betriebsrat kann Videoüberwachung, Taschenkontrollen, Datenabgleiche, PC-Kontrollen und andere Maßnahmen ablehnen oder wenigstens mitgestalten" - Patrick Steinbach'
+        erklärtext: '"Eine gute Ausbildung ist ein überzeugender Weg zu einem Leben in Zufriedenheit. Mit der Ausbildungsplatzgarantie wollen wir Anreize für mehr Ausbildungsplätze schaffen. So stärken wir die Konkurrenzfähigkeit ausbildender Betriebe und helfen ihnen beim wirtschaftlichen Erfolg."'
     },
     {
         aussage: "Die Anwendung der Mietpreisbremse soll erleichtert werden.",
-        bild_src: "alex5.png",
+        bild_src: "alex4.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Kinder sollen ihren Schulweg möglichst selbständig, aber sicher bewältigen können. Wenn es doch das Auto sein muss, sind Elternhaltestellen eine sinnvolle Maßnahme, um Verkehrschaos vor den Schulen zu verhindern." - Theres Boneberger'
+        erklärtext: '"Wir wollen Nordrhein-Westfalen zum Mieter*innenschutzland machen. Damit die Mietpreisbremse und andere Instrumente zur Bekämpfung der Mietpreisspirale nicht ausgebremst, sondern genutzt werden können, müssen Kommunen mehr Handlungsmöglichkeiten bei der Ausweisung von angespannten Wohnungsmärkten erhalten."'
     },
     {
         aussage: "Das Fach Sozialwissenschaften soll wieder eingeführt werden.",
-        bild_src: "alex7.png",
+        bild_src: "alex5.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Die wiederholte Beschädigung des Shoah-Mahnmales in Herne macht deutlich, dass es weiterhin wichtig bleibt, gerade auch lokal Aufklärungsarbeit über den Nationalsozialismus zu leisten." - Flemming Menges'
+        erklärtext: '"Zentrales Instrument zur Stärkung der Demokratie ist die politische Bildung. Sie muss in der Kita beginnen, in allen Schulformen fortgesetzt werden und fester Bestandteil der Weiterbildung sein. Dazu gehört auch das Fach Sozialwissenschaften, das wir in bewährter Form wieder einführen wollen."'
     },
     {
         aussage: "Das aktive Wahlrecht für Landtagswahlen soll auf 16 Jahre herabgesenkt werden und das kommunale Wahlrecht auch auf Ausländer und Ausländerinnen aus Nicht-EU-Staaten erweitert werden.",
-        bild_src: "alex10.png",
+        bild_src: "alex6.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Familien- und frauenbewusste Personalpolitik ist für die Arbeitgeber ein wichtiger Standortfaktor. Für viele neue Mitarbeiter ist es ein wesentliches Entscheidungskriterium, ob eine neue Stelle angenommen wird. Für Mütter - besonders zu Corona Zeiten - ist es sehr wichtig, flexibel zu sein. Gleitende Arbeitszeiten und Homeoffice sind heutzutage nicht nur Zukunftsmusik, sondern Voraussetzung, wenn man als Mutter oder gar als Alleinerziehende beruflich tätig sein will. Ein Großteil von Frauen arbeitet in systemrelevanten Berufen wie zum Beispiel in der Pflege oder im Einzelhandel. Jeder weiß um welche Arbeitszeiten es sich bei diesen Berufsbildern handelt. Gerade hier ist es mehr als erforderlich, die Kinderbetreuung auszuweiten. Mütter müssen die Möglichkeit haben, ihre Kinder flexibel betreuen zu lassen! Nur von 7:30 Uhr bis 16:00 Uhr Betreuungszeit - ggf. längerer Anfahrtsweg zum Arbeitsort berücksichtigt- sind überhaupt nicht ausreichend! Betriebseigene Kindergärten und Ausweitung des Betreuungsangebotes (6:00 Uhr bis 18:00 Uhr ggf. als Stempelsystem) sind unerlässlich, damit Mütter überhaupt einer Beschäftigung über Teilzeitniveau nachgehen können. Ferner brauchen wir mehr Frauen in Führungspositionen! Häufig mangelt es nicht an Bewerberinnen, sondern scheitert an der Unterdrückung der Männer! Das typische Frauenbild, die Frau, die sich um Haushalt und Kinderbetreuung kümmert, muss endlich aus den Köpfen der Männer verschwinden!" - Julia Steinbach'
+        erklärtext: '"Der Schlüssel zur politischen Teilhabe ist das Wahlrecht. Mit der Absenkung des Wahlalters bei Landtagswahlen auf 16 Jahre und der Erweiterung des kommunalen Wahlrechts auf Menschen aus Nicht-EU-Staaten wollen wir die Wahlbeteiligung erhöhen und damit die politische Beteiligung stärken."'
     },
     {
-        aussage: "Für Schülerinnen und Schüler soll ein kostenfreies Ticket eingeführt werden.",
-        bild_src: "alex9.png",
+        aussage: "Für Schüler*innen soll ein kostenfreies Ticket eingeführt werden.",
+        bild_src: "alex7.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Mobilstationen dienen als sichtbare Verknüpfungspunkte zur Vernetzung mehrerer Verkehrsmittel in direkter räumlicher Verbindung. Ziel ist die Verbindung verschiedener Verkehrsmittel an dafür erkennbaren Punkten. Mobilstationen beinhalten darüber hinaus weitere Serviceangebote wie eine gute Aufenthaltsqualität, um klimafreundliche Mobilitätsangebote für die Bürgerinnen und Bürger attraktiv zu gestalten." - Jürgen Scharmacher'
+        erklärtext: '"Mit der Einführung eines kostenfreien Tickets für Schüler*innen wollen wir nicht nur die Schulträger, Kommunen und Verkehrsunternehmen von erheblicher Bürokratie entlasten, sondern auch die umweltfreundliche Mobilität von Kindesbeinen an stärken."'
     },
     {
         aussage: "Ein unabhängiger Polizeibeauftragter soll als Ansprechpartner für Menschen innerhalb und außerhalb der Polizei zur Verfügung steht.",
-        bild_src: "alex6.png",
+        bild_src: "alex8.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Wohnen ist ein Grundrecht. Darum müssen beste Bedingungen geschaffen werden, sozialen Wohnraum zu vermehren." - Elisabeth Majchrzak-Frensel'
+        erklärtext: '"Die Nähe zu den Bürger*innen als Ansprechpartnerin unterstreicht den Politikansatz der SPD. Mit einer*einem unabhängigen Polizeibeauftragten wollen wir eine*n Ansprechpartner*in einsetzen, um Konflikte zu schlichten und das Vertrauen zwischen Polizei und Bürger*innen zu stärken."'
     },
     {
         aussage: "Das bestehende Versammlungsgesetz soll durch ein Versammlungsfreiheitsgesetz ersetzt werden.",
-        bild_src: "alex4.png",
+        bild_src: "alex9.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Die Sportanlagen in Herne müssen weiterhin kostenlos genutzt werden können. Beim Sport wächst Gesellschaft zusammen. Das sollte nichts kosten!" - Hendrik Bollmann'
+        erklärtext: '"Wir brauchen eine kritische Bestandsaufnahme der eingriffsintensiven „Sicherheitsgesetze“ der letzten Jahre. Der Eingriff in unsere Grundrechte darf sich nur auf unbedingt notwendige Maßnahmen begrenzen. Dazu wollen wir ein neues Versammlungsfreiheitsgesetz auf den Weg bringen."'
     },
     {
         aussage: "Auf Landesebene soll eine Antidiskriminierungsstelle eingerichtet werden.",
-        bild_src: "alex8.png",
+        bild_src: "alex10.png",
         bild_alt: "Alexander Vogt",
-        erklärtext: '"Migration ist auch mit Teilhabe und Partizipation aller verbunden, wir dürfen keine Unterschiede machen und müssen jedem - unabhängig von Nationalität, Herkunft und Identität - eine Möglichkeit geben, um teilzuhaben! - Emek Öner'
-    },
+        erklärtext: '"Das Ziel der SPD ist eine diskriminierungsfreie und chancengerechte Gesellschaft. Neben der Etablierung eines Antidiskriminierungsgesetzes wollen wir auf Landesebene eine Antidiskriminierungsstelle einrichten. Diese soll netzwerkartig beratend, forschend und vor allem öffentlichkeitswirksam tätig sein."'
+    }
 ]
