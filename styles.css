@@ -89,7 +89,8 @@ div#d2 {
 }
 div#d3 {
   grid-row: 2;
-  display: flex;
+  display: grid;
+  grid-template-columns: 100%;
 }
 div#d4 {
   grid-column-start: 1;
@@ -433,11 +434,10 @@ p > a {
   }
 
   img#logo {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 10%;
     width: auto;
-    height: auto; /*vorher nichts*/
   }
   img#logo2 {
     display: block;
@@ -497,6 +497,8 @@ p > a {
   }
   div#d3{
     grid-row: 3;
+    display: grid;
+    grid-template-columns: 100%;
   }
   div#d4 {
     padding-left: 20%;
