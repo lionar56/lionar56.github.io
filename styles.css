@@ -29,7 +29,7 @@ img {
   width: 100%;
 }
 img#logo {
-  width: auto;
+  height: auto;
   margin-left: 1vw;
   margin-bottom: 0vh;
 }
